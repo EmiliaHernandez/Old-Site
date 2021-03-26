@@ -1,12 +1,16 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: 'Rokkitt', serif;
 }
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
 .container{
-    width: 100%;
-    height:100%;
-    background: #C59B76;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #C59B76;
 }
 .menu ul{
     display: inline-flex;
@@ -15,8 +19,9 @@
 .menu ul li{
     list-style: none;
     margin: 0 20px;
-    color: #ff6c8d;
+    color: #000000;
     cursor: pointer;
+    font-size: 30px;
 }
 .logo img{
     width:70px;
@@ -30,29 +35,61 @@
   position: absolute;
   color: black;
 }
+
 .app-text{
   width: 20%;
   float: left;
 }
 .app-text h1{
-  font-size: : 43px;
-  width: 640px;
-  position: relative;
-  font-family: 'Rokkitt', serif;
-  margin-left: 40px;
+  position: absolute;
+  width: 908px;
+  height: 135px;
+  left: 100px;
+  top: 20px;
+
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 2px;
+    text-align: center;
 }
 .app-text p{
-  font-size: : 15px;
-  font-family: 'Rokkitt', serif;
-  width: 650px;
-  line-height: 25px;
-  margin: 30px 0 30px 40px;
-  color: #919191;
+  position: absolute;
+  width: 807px;
+  height: 88px;
+  left: 50%;
+  top: 263px;
+
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+
+  color: #000000;
 }
 .app-picture{
-  width: 50%;
-  float: right;
+  position: absolute;
+  width: 500px;
+  height: 315px;
+  overflow: hidden;
+  left: 50px;
+  top: 160px;
+
+  transform: matrix(1, 0, 0.03, 1, 0, 0);
 }
-.app-picture img{
+.app-picture2{
+  position: absolute;
+  width: 500px;
+  height: 315px;
+  overflow: hidden;
+  left: 800px;
+  top: 160px;
+
+  transform: matrix(1, 0, 0.03, 1, 0, 0);
+}
+/*.app-picture img{
   width: 60%;
 }
