@@ -6,11 +6,35 @@ html, body{
   width: 100%;
   height: 100%;
 }
-.container{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #C59B76;
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.col-sm-2:hover img{ 
+  transform: scale(1.1); 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #383838;
+  color: white;
 }
 .menu ul{
     display: inline-flex;
@@ -28,14 +52,6 @@ html, body{
     margin-top: -7px;
     margin-right: 48px;
 }
-.banner{
-  width: : 80%;
-  height: 70%;
-  left: 100px;
-  position: absolute;
-  color: black;
-}
-
 .app-text{
   width: 20%;
   float: left;
