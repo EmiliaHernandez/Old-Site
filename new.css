@@ -1,0 +1,220 @@
+/*imports normalize*/
+@import "normalize.css";
+/*imports custom font*/
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+
+@media screen and (max-width: 1200px) {
+  .agency {
+    font-size: 20px;
+  }
+  img .self {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .agency {
+    font-size: 60px;
+  }
+  a{
+    font-size: 20px;
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  position: sticky;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #ffffff 10.94%,
+    rgba(255, 255, 255, 0.47) 55.6%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
+.topnav a {
+  float: right;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 24px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+}
+.line {
+  width: 95%;
+  margin: auto;
+  height: 5px;
+  background: black;
+}
+.circle {
+  width: 500px;
+  height: 500px;
+  bottom: 0;
+  background: #0066ff;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  z-index: -1;
+}
+.technologies {
+  height: 30px;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  background-color: #0066ff;
+  margin-top: 20px;
+  margin-bottom: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 10px;
+  border-radius: 17px;
+}
+.block-container {
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-7 {
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.category {
+  width: 93%;
+  margin: auto;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+}
+img .myself {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  display: flex;
+}
+
+#coverimage {
+  display: block;
+}
+
+#info {
+  display: none;
+}
+
+#osicover {
+  display: block;
+}
+
+#osiinfo {
+  display: none;
+}
+
+#wrapper {
+  width: auto;
+  display: inline block;
+  transition: 0.5s ease;
+}
+
+#wrapper:hover #coverimage {
+  display: none;
+}
+
+#wrapper:hover #info {
+  display: block;
+}
+
+#wrapper:hover #osicover {
+  display: none;
+}
+
+#wrapper:hover #osiinfo {
+  display: block;
+}
+
+@media (min-width: 500px) {
+  h3 {
+    font-size: 12px;
+  }
+}
+
+.dg {
+  margin: auto;
+  padding-left: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 50px;
+}
+/* Hide the second piece of text by default */
+p.hovertext .second {
+  display: none;
+}
+
+/* Hide the first piece of text on hover */
+p.hovertext:hover .first {
+  display: none;
+}
+
+/* Re-show the second piece of text on hover */
+p.hovertext:hover .second {
+  display: inline;
+}
+
+/*font and color used throughout*/
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+/*making h2 larger*/
+h2 {
+  font-size: 50px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.salirsocials {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.salir:hover .salirsocials {
+  opacity: 1;
+}

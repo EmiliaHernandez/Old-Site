@@ -1,80 +1,255 @@
-<!doctype html>
+<!--standard starter template-->
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <style>
-      .col-sm-2:hover img{ 
-        transform: scale(1.03); 
-      }
-    </style>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="logo.png">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b2b820c8de.js" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(130, 122, 155)">
-      <a class="navbar-brand" href="#"style="padding-left: 20px;">Emilia Hernandez</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <title>Emilia Hernandez</title>
-  </head>
-  <body style="background-color: #121212;">
-    <div class="row">
-    <div class ="col-sm-4" style="padding-left: 100px; padding-top: 100px;">
-      <h2 style="color: blanchedalmond;"><i class="fas fa-frog"></i> Welcome!</h2>
-      <h4 style="color: blanchedalmond;">I study Digital Media at the University of Central Florida and work as a Web Designer for their Office of Student Involvement.
-        In my free time, I love to participate in Game Jams and Hackathons because I love making punchy and impactful content in small packages</h4>
-    </div>
-    </div>
-  </div>
-  </div>
-  <div class="container" style="background-color: black; margin-top: 50px;">
-<div class="row">
-<div class="col-sm-2" style="padding: 30px; margin: 10px;">
-  <img src="1.png">
-</div>
-<div class="col-sm-2" style="padding: 30px; margin: 10px;">
-  <img src="2.png">
-</div>
-<div class="col-sm-2" style="padding: 30px; margin: 10px;">
-  <img src="3.png">
-</div>
-<div class="col-sm-2" style="padding: 30px; margin: 10px;">
-  <img src="4.png">
-</div>
-<div class="col-sm-2" style="padding: 30px; margin: 10px;">
-  <h1>Creative Works</h1>
-  <p>Click to learn more about each of these games I've made</p>
-</div>
-</div>
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!--links our css, unseen by users-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="test.js"></script>
+  <link rel="stylesheet" type="text/css" href="new.css">
+  <!--website tab title-->
+  <title>Emilia Hernandez</title>
+</head>
 
-  </body>
+<body>
+      <div class="topnav">
+        <a href="#home" style="float: left;">Emilia Hernandez</a>
+        <a href="#contact">Contact</a>
+        <a href="#justforfun">Just For Fun</a>
+        <a href="#work">Work</a>
+      </div>
+  <!--responsive grid-->
+
+
+
+  <div class="container-fluid">
+    <!--Intro Card-->
+    <div class= "row" style="height: 30px;"></div>
+    <div class="row">
+      <div class = "col-1"></div>
+      <div class="col-6">
+        <h3>Hello</h3>
+        <p style="font-size: 30px;">I’m Emilia, a student at the University of Central Florida pursuing a B.A in Digital Media, Web Design.
+           I’m Emilia, a student at the University of Central Florida pursuing a B.A in Digital Media, Web Design.
+           I’m Emilia, a student at the University of Central Florida pursuing a B.A in Digital Media, Web Design. </p>
+      </div>
+      <div class = "col-1"></div>
+      <div class="col">
+        <img src="myself.gif" class="self" style="display: block;margin-left: auto;margin-right: auto;">
+        <div class="mx-auto" style="  width: 500px;
+        height: 500px;
+        bottom: 0;
+        background: #0066ff;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;"></div>
+      </div>
+      </div>
+      <!--Line and Work Section-->
+      <div class="row">
+        <div class="line"></div>
+        <h3 style="padding-left: 50px; padding-top: 50px;" id="work">Work</h3>
+        </div>
+        <!--DG Info-->
+        <div class="row">
+         <div class="col-5">
+<img src="DesignGroupLogo.png" class="dg">         
+</div>
+         <div class="col-5">
+<h4 style="margin-top: 30px;">The OSI Design Group is comprised of Web and Graphic designers who complete orders for various UCF agencies. My title is “Web Designer”, but I have gotten the opportunity to do graphic design as well.</h4>
+         </div>
+          </div>
+          <!--Strip with category of Web Design-->
+          <div class="row">
+            <div class="col" style="background-color: #0066FF;">
+              <h3 style="text-align: center; color: whitesmoke; margin-top: 30px">Web Design</h3>
+              <p style="text-align: center; color: whitesmoke; margin-bottom:30px">HTML/CSS • Wordpress • Bootstrap • Github • PHP</p>
+            </div>
+          </div>
+<!--New SG Card-->
+          <div class="row" id="wrapper">
+            <div class="col" id="osicover" style="background-color: #C0CFE4;">
+              <img src="ICONS-02.png" style="width: 50%; margin: auto; display: block; padding-top: 20px; padding-bottom: 20px;">
+            </div>
+            <div class="col" id="osiinfo" style="background-color: #C0CFE4;">
+              <div class="row">
+              <div class="col-6">
+                <h3 style="color: black;margin-top: 50px;margin-left: 50px;" class="agency">Student Government</h3>
+                <a href="https://studentgovernment.ucf.edu/" style="margin-left: 50px">https://studentgovernment.ucf.edu/</a>
+                <p style="margin-left: 50px">SG represents, advocates for, and serves, the Student Body. I am personally responsible for the Student Government initiatives tracker</p>
+              </div>
+              <div class="col-6">
+                <img src="inittracker.gif" style="width: 100%; padding-top: 20px; padding-bottom: 20px;">
+            </div>
+          </div>
+            </div>
+          </div>
+<!--Palooza card-->
+            <div class="row" id="wrapper">
+              <div class="col" id="osicover" style="background-color: #FFC83B;">
+                <img src="ICONS-03.png"style= "margin: auto; display: block; width: 50%">
+              </div>
+              <div class="col" id="osiinfo" style="background-color: #ffc83B;">
+                <div class="row">
+                <div class="col-6">
+                  <h3 style="color: white;margin-top: 30px;margin-left: 50px;">pEGASUS pALOOZA</h3>>
+                  <h6 style="color: white; margin-left: 50px;">https://osi.ucf.edu/</h6>
+                </div>
+                <div class="col-6">
+                <img src="osi.gif" style="width: 100%;">
+              </div>
+            </div>
+              </div>
+            </div>
+<!--OSI CARD-->
+          <div class="row" id="wrapper">
+            <div class="col" id="osicover" style="background-color: #201448;">
+              <img src="ICONS-01.png"style= "margin: auto; display: block; width: 50%">
+            </div>
+            <div class="col" id="osiinfo" style="background-color: #201448;">
+              <div class="row">
+              <div class="col-6">
+                <h3 style="color: white;margin-top: 30px;margin-left: 50px;">Office of Student Involvement(OSI)</h3>>
+                <h6 style="color: white; margin-left: 50px;">https://osi.ucf.edu/</h6>
+              </div>
+              <div class="col-6">
+              <img src="osi.gif" style="width: 100%;">
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" style="background-color: whitesmoke;">
+              <h3 style="text-align: center; color: black; margin-top: 30px">Graphic Design</h3>
+              <p style="text-align: center; color: black; margin-bottom:30px">Adobe Illustrator	• IbisPaintX</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4" id="container1">
+              <a href="https://www.instagram.com/p/CV8VoTur-zz/" target="_blank"><img src="RemembranceFlyer.png" class="salir" style="max-width: 100%;height: auto;display: block;"></a>
+            </div>
+            <div class="col-4">
+<a href="https://www.instagram.com/p/CU5Sex3LJkd/" target="_blank"><img src="bingo.png" style="max-width: 100%;height: auto;"></a>
+            </div>
+            <div class="col-4">
+<a href=""><img src="ReuknightedFinal.png" style="max-width: 100%;height: auto;"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="line" style="margin-top: 30px;"></div>
+            <h3 style="  padding-left: 50px; padding-top: 50px;" id="justforfun">Just for Fun</h3>
+            </div>
+            <div class="row" style="margin-top: 30px;margin-bottom: 30px;">
+             <div class="col-5">
+    <img src="unnamed (10).png" class="dg">
+             </div>
+             <div class="col-5">
+    <h4 style="margin-top: 30px;">Ludum Dare is a 72-hour game-creation competition. I’ve created projects for four of them, and continue to look forward to this tradition every 6 months.</h4>
+             </div>
+              </div>
+              <div class="row">
+                <div class="col" style="background-color: #FFC83B">
+                  <h3 style="text-align: center; color: black; margin-top: 30px">Game Design</h3>
+                  <p style="text-align: center; color: black; margin-bottom:30px">Unity 2D	• Aesprite 	• Paint Tool SAI 	• C# </p>
+                </div>
+              </div>
+<div class="row">
+  <div class="col-6" style="background-color: #150D2E;">
+    <div class="row">
+    <div class="col-6">
+      <img src="hertitle.png" style="max-width: 100%;height: auto;">
+    </div>
+    <div class="col-6">
+      <img src="herclothes.png" style="max-width: 100%;height: auto;">
+    </div>
+  </div>
+  <div class="row">
+ <div class="col">
+   <h3 style="color: blanchedalmond; margin-top: 30px;">Her Bedtime Stories</h3>
+   <p style="color: blanchedalmond;">Her Bedtime stories was created in 72 hours for the Ludum Dare Game Jam. It is a game based on the traumas of Sexual Assault. </p>
+   <br>
+   <p style="color: blanchedalmond;">Submitted to Ludum Dare 48 </p>
+   <p style="color: blanchedalmond; background-color: linear-gradient(90deg, #292389 49.91%, rgba(41, 35, 137, 0) 100%); font-size: 12px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+  </svg> Article: "Digital Media Student Raises Mental Illness Awareness Through Video Game"</p>
+ </div>
+  </div>
+  </div>
+  <div class="col-6" style="background-color: #201448;">
+    <div class="row">
+      <div class="col-6">
+        <img src="sstitle.png" style="max-width: 100%;height: auto;">
+      </div>
+      <div class="col-6">
+        <img src="ssgame.png" style="max-width: 100%;height: auto;">
+      </div>
+    </div>
+    <div class="row">
+   <div class="col">
+     <h3 style="color: blanchedalmond; margin-top: 30px;">Spirit Scouts</h3>
+     <p style="color: blanchedalmond;">Spirit Scouts is a short game about piecing snippets of information together and pairing souls together.</p>
+     <br>
+     <p style="color: blanchedalmond;">Submitted to Ludum Dare 47 </p>
+   </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6" style="background-color: #FFC83B;">
+    <div class="row">
+    <div class="col-6">
+      <img src="highlights.png" style="max-width: 100%;height: auto;">
+    </div>
+    <div class="col-6">
+      <img src="highlights2.png" style="max-width: 100%;height: auto;">
+    </div>
+  </div>
+  <div class="row">
+ <div class="col">
+   <h3 style="color: blanchedalmond; margin-top: 30px;">Highlights</h3>
+   <p style="color: blanchedalmond;">Spirit Scouts is a short game about piecing snippets of information together and pairing souls together.</p>
+   <br>
+   <p style="color: blanchedalmond;">Submitted to Ludum Dare 46 </p>
+ </div>
+  </div>
+  </div>
+  <div class="col-6" style="background-color: #D99C00;">
+    <div class="row">
+      <div class="col-6">
+        <img src="smalltownpreview.JPG" style="max-width: 100%;height: auto;">
+      </div>
+      <div class="col-6">
+        <img src="catcap.JPG" style="max-width: 100%;height: auto;">
+      </div>
+    </div>
+    <div class="row">
+   <div class="col">
+     <h3 style="color: blanchedalmond; margin-top: 30px;">Smalltown</h3>
+     <p style="color: blanchedalmond;">Spirit Scouts is a short game about piecing snippets of information together and pairing souls together.</p>
+     <br>
+     <p style="color: blanchedalmond;">Submitted to Ludum Dare 45 </p>
+   </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col" style="background-color: whitesmoke;">
+    <h3 style="text-align: center; color: black; margin-top: 30px">Contact</h3>
+    <p style="text-align: center; color: black; margin-bottom:30px"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+      <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+    </svg> Emilia.b.hernandez@gmail.com</p><a href="https://www.linkedin.com/in/emilia-hernandez-560489159/" style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+    </svg> linkedin</a>
+    <a href="https://emiliabh.itch.io/" style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+      <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+    </svg> Itch.io</a>
+  </div>
+</div>
+        </div>
+      </div>
+    </body>
+  </div>
+</body>
 </html>
