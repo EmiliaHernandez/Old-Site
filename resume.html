@@ -1,134 +1,235 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <style>
+      .col-sm-2:hover img {
+        transform: scale(1.03);
+      }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="logo.png" />
 
-<head>
-  <style>
-    .col-sm-2:hover img {
-      transform: scale(1.03);
-    }
-  </style>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="logo.png">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/b2b820c8de.js" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:lightgreen">
-    <a class="navbar-brand" href="#" style="padding-left: 20px;">Emilia Hernandez</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <link rel="stylesheet" type="text/css" href="new.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/b2b820c8de.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Emilia Hernandez</title>
+  </head>
+
+  <div class="topnav">
+    <a href="index.html#justforfun" style="float: left">Emilia Hernandez</a>
+    <a href="resume.html">Resume</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="index.htmljustforfun">Just For Fun</a>
+    <a href="index.html">Work</a>
+  </div>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html" style="text-decoration: none">Home</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Resume</li>
+    </ol>
   </nav>
-  <title>Emilia Hernandez</title>
-</head>
 
-<body style="background-color: #121212; color: whitesmoke;">
-  <h1 style="color: whitesmoke;width: 30rem;margin-top: 50px;margin-left: 20px;">Resume</h1>
-  <div class="row">
-    <div class="col-5">
-      <div class="card" style="width: 30rem;margin-top: 50px;margin-left: 20px;border: none;">
-        <div class="card-body" style="background-color: #1d1d1d;">
-          <h5 class="cart-title" style="color: whitesmoke;"><i class="fas fa-university"></i> Education</h5>
-          <h6 class="card-subtitle mb-2 text-muted">University of Central Florida</h6>
-          <p class="card-text" style="color: whitesmoke;">Digital Media B.A. 2018-2023</p>
+  <body style="background-color: whitesmoke">
+    <h1 style="color: black; width: 30rem; margin-top: 50px; margin-left: 20px">
+      Resume
+    </h1>
+    <div class="row">
+      <div class="col">
+        <div
+          class="card"
+          style="
+            margin-top: 50px;
+            margin-left: 20px;
+            border: none;
+            display: block;
+          "
+        >
+          <div class="card-body" style="background-color: whitesmoke">
+            <h5 class="cart-title" style="color: black">
+              <i class="fas fa-university"></i> Education
+            </h5>
+            <h4 class="card-subtitle mb-2 text-muted">
+              University of Central Florida
+            </h4>
+            <h6 class="card-text" style="color: black">
+              Digital Media B.A. 2018-2023
+            </h6>
+          </div>
+          <div
+            class="card-body"
+            style="margin: 0; background-color: whitesmoke"
+          >
+            <h5 class="cart-title" style="color: black">
+              <i class="fas fa-hand-spock"></i> Skills
+            </h5>
+            <h4 class="card-subtitle mb-2 text-muted">
+              Technology Proficiency
+            </h4>
+            <span class="badge rounded-pill bg-primary">Adobe XD</span>
+            <span class="badge rounded-pill bg-success"
+              ><i class="fas fa-certificate"></i> Adobe Photoshop</span
+            >
+            <span class="badge rounded-pill bg-primary"
+              ><i class="fas fa-certificate"></i> Microsoft Word</span
+            >
+            <span class="badge rounded-pill bg-success"
+              ><i class="fas fa-certificate"></i> Microsoft Powerpoint</span
+            >
+            <span class="badge rounded-pill bg-primary"
+              ><i class="fas fa-certificate"></i> Microsoft Excel</span
+            >
+            <span class="badge rounded-pill bg-success">Figma</span>
+            <span class="badge rounded-pill bg-primary"
+              ><i class="fas fa-certificate"></i> Unity</span
+            >
+            <span class="badge rounded-pill bg-success"
+              >Visual Studio Code</span
+            >
+            <span class="badge rounded-pill bg-primary">Wordpress</span>
+            <span class="badge rounded-pill bg-success">Bootstrap</span>
+
+            <h4 class="card-subtitle mb-2 text-muted" style="margin-top: 20px">
+              Programming
+            </h4>
+            <span class="badge rounded-pill bg-primary"
+              ><i class="fas fa-certificate"></i> HTML/CSS</span
+            >
+            <span class="badge rounded-pill bg-success">C#</span>
+            <span class="badge rounded-pill bg-primary">PHP</span>
+            <span class="badge rounded-pill bg-success">Javascript</span>
+            <span class="badge rounded-pill bg-primary"
+              ><i class="fas fa-certificate"></i> git</span
+            >
+            <h4 class="card-subtitle mb-2 text-muted" style="margin-top: 20px">
+              Languages
+            </h4>
+            <span class="badge rounded-pill bg-primary">English</span>
+            <span class="badge rounded-pill bg-success">Spanish</span>
+          </div>
         </div>
-        <div class="card-body" style="background-color: #1d1d1d;margin: 0;">
-          <h5 class="cart-title" style="color: whitesmoke;"><i class="fas fa-hand-spock"></i> Skills</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Technology Proficiency</h6>
-          <span class="badge rounded-pill bg-primary">Adobe XD</span>
-          <span class="badge rounded-pill bg-success"><i class="fas fa-certificate"></i> Adobe Photoshop</span>
-          <span class="badge rounded-pill bg-primary"><i class="fas fa-certificate"></i> Microsoft Word</span>
-          <span class="badge rounded-pill bg-success"><i class="fas fa-certificate"></i> Microsoft Powerpoint</span>
-          <span class="badge rounded-pill bg-primary"><i class="fas fa-certificate"></i> Microsoft Excel</span>
-          <span class="badge rounded-pill bg-success">Figma</span>
-          <span class="badge rounded-pill bg-primary"><i class="fas fa-certificate"></i> Unity</span>
-          <span class="badge rounded-pill bg-success">Visual Studio Code</span>
-          <span class="badge rounded-pill bg-primary">Wordpress</span>
-          <span class="badge rounded-pill bg-success">Bootstrap</span>
+      </div>
+      <div class="col">
+        <div
+          class="card"
+          style="
+            margin-top: 50px;
+            border: none;
+            margin-left: 0;
+            display: block;
+            left: 0;
+          "
+        >
+          <div class="card-body" style="background-color: whitesmoke">
+            <h5 class="cart-title" style="color: black">
+              <i class="fas fa-building"></i> Experience
+            </h5>
+            <h4 class="card-subtitle mb-2 text-muted">
+              Web Designer @UCF Office of Student Involvement
+            </h4>
+            <h6 class="card-text" style="color: black">May 2021-Present</h6>
+            <h6 class="card-text" style="color: black">
+              Collaborates with OSI’s agencies to deliver relevant information
+              via the web to the UCF community. Proficient in Wordpress, PHP,
+              and Bootstrap
+            </h6>
+          </div>
+          <div class="card-body" style="background-color: whitesmoke">
+            <h4 class="card-subtitle mb-2 text-muted">
+              Resident Assistant @Knights Circle
+            </h4>
+            <h6 class="card-text" style="color: black">May 2021-Present</h6>
+            <h6 class="card-text" style="color: black">
+              Facilitate Roommate disputes, create community events, assist at
+              the front desk, write incident reports.
+            </h6>
+          </div>
+          <div class="card-body" style="background-color: whitesmoke">
+            <h4 class="card-subtitle mb-2 text-muted">
+              ACM-W Vice President @UCF
+            </h4>
+            <h6 class="card-text" style="color: black">May 2021-Present</h6>
+            <h6 class="card-text" style="color: black">
+              <li>
+                Association for Computing Machinery - Women in Tech student
+                chapted
+              </li>
+              <li>
+                Create events, presentations, and programs aimed to support
+                women in tech
+              </li>
+              <li>Previously Marketing Director for 1 year</li>
+            </h6>
+          </div>
+        </div>
+      </div>
 
-          <h6 class="card-subtitle mb-2 text-muted " style="margin-top: 20px;">Programming</h6>
-          <span class="badge rounded-pill bg-primary"><i class="fas fa-certificate"></i> HTML/CSS</span>
-          <span class="badge rounded-pill bg-success">C#</span>
-          <span class="badge rounded-pill bg-primary">PHP</span>
-          <span class="badge rounded-pill bg-success">Javascript</span>
-          <span class="badge rounded-pill bg-primary"><i class="fas fa-certificate"></i> git</span>
-
-          <h6 class="card-subtitle mb-2 text-muted" style="margin-top: 20px;">Languages</h6>
-          <span class="badge rounded-pill bg-primary">English</span>
-          <span class="badge rounded-pill bg-success">Spanish</span>
-
-          <h5 class="cart-title" style="color: whitesmoke;margin-top: 20px;"><i class="fas fa-medal"></i> Achievements
-          </h5>
-          <li>Dean’s List (Spring 2020, Spring 2021)</li>
-          <li>FreeCodeCamp Responsive Web Design Certificate (2021)</li>
-          <li>Taco Bell Live Mas Scholarship + Renewal Scholarship (2020, 2018)</li>
-          <li>Generation Google Scholarship (2018)</li>
-          <li>National Silver Medal in Game Design for the Scholastic Art and Writing Awards (2018)</li>
-          <li>Regional Silver Key award in Design for the Scholastic Art and Writing Awards (2018)</li>
+      <div class="col">
+        <div
+          class="card"
+          style="margin-top: 50px; border: none; margin-left: 0; display: block"
+        >
+          <div class="card-body" style="background-color: whitesmoke">
+            <h5 class="cart-title" style="color: black; margin-top: 20px">
+              <i class="fas fa-medal"></i> Achievements
+            </h5>
+            <li>Dean’s List (Spring 2020, Spring 2021)</li>
+            <li>FreeCodeCamp Responsive Web Design Certificate (2021)</li>
+            <li>
+              Taco Bell Live Mas Scholarship + Renewal Scholarship (2020, 2018)
+            </li>
+            <li>Generation Google Scholarship (2018)</li>
+            <li>
+              National Silver Medal in Game Design for the Scholastic Art and
+              Writing Awards (2018)
+            </li>
+            <li>
+              Regional Silver Key award in Design for the Scholastic Art and
+              Writing Awards (2018)
+            </li>
+            <h5 class="cart-title" style="color: black; margin-top: 20px">
+              <i class="fas fa-medal"></i> Projects
+            </h5>
+            <li>
+              <a href="herbedtimestories.html">Her Bedtime Stories(2021)</a>
+            </li>
+            <li>
+              <a
+                href="https://emiliabhernandez.myportfolio.com/artsearch-website"
+                >ArtSearch</a
+              >
+            </li>
+            <li><a href="spiritscouts.html">Spirit Scouts</a></li>
+            <li>
+              <a href="https://devpost.com/software/babbleon">BabbleOn(2020)</a>
+            </li>
+            <li><a href="highlightsgame.html">Highlights(2020)</a></li>
+            <li><a href="highlightsgame.html">SmallTown(2019)</a></li>
+            <li><a>From A to Z(2018)</a></li>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-6">
-      <div class="card" style="width: 45rem;margin-top: 50px;border: none;margin-left: 0;">
-        <div class="card-body" style="background-color: #1d1d1d;">
-          <h5 class="cart-title" style="color: whitesmoke;"><i class="fas fa-building"></i> Experience</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Web Designer @UCF Office of Student Involvement</h6>
-          <p class="card-text" style="color: whitesmoke;">May 2021-Present</p>
-          <p class="card-text" style="color: whitesmoke;">Collaborates with OSI’s agencies to deliver relevant
-            information via the web to the UCF community.
-            Proficient in Wordpress, PHP, and Bootstrap</p>
-        </div>
-        <div class="card-body" style="background-color: #1d1d1d;">
-          <h6 class="card-subtitle mb-2 text-muted">Resident Assistant @Knights Circle</h6>
-          <p class="card-text" style="color: whitesmoke;">May 2021-Present</p>
-          <p class="card-text" style="color: whitesmoke;">Facilitate Roommate disputes, create community events, assist
-            at the front desk, write incident reports.</p>
-        </div>
-        <div class="card-body" style="background-color: #1d1d1d;">
-          <h6 class="card-subtitle mb-2 text-muted">ACM-W Vice President @UCF</h6>
-          <p class="card-text" style="color: whitesmoke;">May 2021-Present</p>
-          <p class="card-text" style="color: whitesmoke;">
-            <li>Association for Computing Machinery - Women in Tech student chapted</li>
-            <li>Create events, presentations, and programs aimed to support women in tech</li>
-            <li>Previously Marketing Director for 1 year</li>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
 
-</body>
-
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
