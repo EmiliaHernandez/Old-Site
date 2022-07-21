@@ -11,7 +11,6 @@ html, body{
   overflow: hidden;
 }
 
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
@@ -24,9 +23,6 @@ html, body{
   font-size: 17px;
 }
 
-.heyo{
-  font-size:xx-large;
-}
 .navbar-nav > li{
   margin-left:30px;
   margin-right:30px;
