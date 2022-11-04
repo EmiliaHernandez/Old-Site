@@ -69,6 +69,16 @@
   top: 0px;
 }
 
+.topnavy {
+  overflow: hidden;
+  position: sticky;
+  width: 100%;
+  background: #ffbf00;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+}
+
 .topnav a {
   float: right;
   line-height: 28px;
