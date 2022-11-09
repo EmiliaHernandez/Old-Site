@@ -86,6 +86,16 @@ animation: updown 2s infinite alternate ease-in-out;
 .starter{
   margin-top: 100px;
 }
+<<<<<<< Updated upstream
+=======
+.starter-small{
+  margin-top: 2%;
+}
+
+.td{
+  font-size: large;
+}
+>>>>>>> Stashed changes
 
 .topnav {
   overflow: hidden;
@@ -164,6 +174,38 @@ animation: updown 2s infinite alternate ease-in-out;
   display: block;
 }
 
+<<<<<<< Updated upstream
+=======
+.gameDev{
+  font-family: 'Alike Angular', serif;
+  color: white;
+  margin-bottom: 7%
+}
+
+@media screen and (max-width: 991.98px){
+.gameDev h1{
+  font-size: 200%;
+  margin-top: 2%;
+}
+
+.gameDev h2{
+  font-size: 100%;
+  margin-bottom: 2%;
+}
+}
+
+@media screen and (min-width: 991.98px){
+  .gameDev h1{
+    font-size: 360%;
+    margin-top: 2%
+  }
+  .gameDev h2{
+    font-size: 200%;
+  }
+
+  }
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -195,6 +237,10 @@ animation: updown 2s infinite alternate ease-in-out;
   }
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .resumeHeading{
 font-size: 50px;
 padding-top: 3%; 
@@ -263,6 +309,13 @@ padding-top: 3%;
       color: rgb(11, 11, 11);
   }
 
+<<<<<<< Updated upstream
+=======
+.xxl-fix{
+  text-size-adjust: large;
+}
+
+>>>>>>> Stashed changes
   .infoTron{
     margin-top: 5%;
     padding-top:3%;
@@ -287,7 +340,11 @@ padding-top: 3%;
 
   .techUsed{
     font-style: italic;
+<<<<<<< Updated upstream
     font-size: 60%
+=======
+    font-size: 70%
+>>>>>>> Stashed changes
   }
 
   
@@ -342,7 +399,10 @@ h4{
   }
 
   h1 {
+<<<<<<< Updated upstream
     color: #333;
+=======
+>>>>>>> Stashed changes
     font-size: 3rem;
     font-weight: 100;
     line-height: 1.5;
