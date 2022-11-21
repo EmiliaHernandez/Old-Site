@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>.gif-player {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        height: 200px;    
+      }
+      
+      .gif {  
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);     
+      }
+      
+      .gif-play-btn {
+        pointer-events: none;    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }</style>
+  </head>
+  <body>
+    <h1 class=" animate__animated animate__headShake">An animated element</h1>
+    <div class="gif-player">    
+      <img class="gif" src="mario.png"/>    
+      <img class="gif-play-btn" src="mario.png" />    
+  </div>
+
+    <script>
+function clickFunc() {        
+ gif = this;
+ gif_btn = gif.parentElement.getElementsByClassName("gif-play-btn")[0];              
+
+ if (gif.classList.contains("gif-stopped")) {
+    gif.classList.remove("gif-stopped");
+    gif.classList.add("gif-playing");
+    gifImgPath = gif.src.substring(0, gif.src.length - 3) + "gif";
+    gif.setAttribute("src", gifImgPath);                
+    gif_btn.style.opacity = 0;
+ } else {
+    gif.classList.remove("gif-playing");
+    gif.classList.add("gif-stopped");            
+
+    staticImgPath = gif.src.substring(0, gif.src.length - 3) + "png";
+    gif.setAttribute("src", staticImgPath);    
+    gif_btn.style.opacity = 1;
+ }
+};
+
+function initGifPlayer(element) {    
+ gif = element.getElementsByClassName("gif")[0];    
+ gif.classList.add("gif-stopped");            
+ gif.onclick = clickFunc;    
+}
+
+gifs = document.getElementsByClassName("gif-player");
+[].forEach.call(gifs, function(gif) {
+    initGifPlayer(gif);
+});
+    </script>
+  </body>
+</html>
