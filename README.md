@@ -20,6 +20,6 @@
     <link rel="stylesheet" type="text/css" href="../stylez.css" />
     </head>
     <body style="background-color: rgb(29, 29, 29);color:white">
-WEBSITE UNDER CONSTRUCTION
+<H1>WEBSITE UNDER CONSTRUCTION<h1>
     </body>
 </html>
