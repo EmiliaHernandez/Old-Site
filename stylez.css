@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+@media (min-width: 992px) {
+  .largeRatText{
+    font-size: 145%;
+  }
+ }
+ @media (min-width: 1600px) {
+  .largeRatText{
+    font-size: 260%;
+  }
+ }
+
+
+ @media (min-width: 700px) {
+  .largePegasusText{
+    font-size: 67%;
+  }
+ }
+ @media (min-width: 992px) {
+  .largePegasusText{
+    font-size: 110%;
+  }
+ }
+ @media (min-width: 1600px) {
+  .largePegasusText{
+    font-size: 140%;
+  }
+ }
+
+
+@font-face {
+  font-family: palanquinDark;
+  src: url(PalanquinDark-SemiBold.ttf);
+}
+body{
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*rat animation*/
+@keyframes circle {
+  to { transform: rotate(1turn); }
+}
+@keyframes updown {
+  to { transform: translateX(50px); }
+}
+.floating {  
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction:alternate;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 19px); }
+  to   { transform: translate(0, -0px); }    
+}
+#rocketship { 
+  position: absolute;
+  width: 12%;
+  bottom: 10%; right: -25%;
+  margin: auto;
+  display: block;
+  transform-origin: -100% center;
+  animation: circle 5s infinite linear;
+
+}
+#rocketship img { width: 100%; height: auto;
+  transform-origin: top left;
+animation: updown 2s infinite alternate ease-in-out;
+  margin-top: 10%;
+}
+
+
+.starter{
+  margin-top: 100px;
+}
+.starter-small{
+  margin-top: 2%;
+}
+
+.td{
+  font-size: large;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(17, 17, 17) !important;
+  z-index: 2;
+  position:sticky;
+  padding:0 !important;
+  width: 100%;
+  top: 0px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  color: black !important;
+  background-color: white !important;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.gameDev{
+  font-family: 'Alike Angular', serif;
+  color: white;
+  margin-bottom: 7%
+}
+
+@media screen and (max-width: 991.98px){
+.gameDev h1{
+  font-size: 200%;
+  margin-top: 2%;
+}
+
+.gameDev h2{
+  font-size: 100%;
+  margin-bottom: 2%;
+}
+}
+
+@media screen and (min-width: 991.98px){
+  .gameDev h1{
+    font-size: 360%;
+    margin-top: 2%
+  }
+  .gameDev h2{
+    font-size: 200%;
+  }
+
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+.resumeHeading{
+font-size: 50px;
+padding-top: 3%; 
+}
+
+.resumeRole{
+  font-size: 20px;
+  padding-top: 3%;
+}
+.resumeDuration{
+  font-size: 15px;
+  }
+
+.first-col-center
+{
+  border-left-style: solid;
+  border-right-style: solid;
+}
+.first-col-start
+{
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+.first-col-last{
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+}
+.second-col-start
+{
+  border-top-style: solid;
+  border-right-style: solid;
+}
+.second-col-center
+{
+  border-right-style: solid;
+}
+.second-col-last{
+  border-right-style: solid;
+  border-bottom-style: solid;
+}
+
+@media (min-width: 930px) {
+  .mobile-view {
+    display: none;
+  }
+}
+
+/* do not display for small screens */
+@media (max-width: 930px) {
+  .web-view {
+    display: none;
+  }
+}
+
+  .dark
+  {
+      background-color: rgb(32, 32, 32);;
+      color: aliceblue;
+  }
+
+  .light
+  {
+      background-color: rgb(235, 235, 235);
+      color: rgb(11, 11, 11);
+  }
+
+.xxl-fix{
+  text-size-adjust: large;
+}
+
+  .infoTron{
+    margin-top: 5%;
+    padding-top:3%;
+    padding-bottom:3% ;
+    font-family: 'Alike Angular', serif;
+  }
+
+
+  .infoTronSide{
+    margin-top: 0px;
+    padding-top: 7%;
+    font-family: 'Alike Angular', serif;
+  }
+
+  .aAngular{
+    font-family: 'Alike Angular', serif;
+  }
+  .boldPalanquin{
+    font-family: palanquinDark;
+    font-size: 3rem  !important;
+  }
+
+  .techUsed{
+    font-style: italic;
+    font-size: 70%
+  }
+
+  
+h4{
+    padding-bottom: 2%;
+}
+.mural{
+    width:100%
+}
+
+.pegasus{
+  width:100%
+}
+
+.pegasus:hover{
+  position: sticky;
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.mural:hover{
+    position: sticky;
+    transform: scale(1.5);
+    z-index: 2;
+  }
+  .preview-img{
+    width: 80%;
+    padding-top: 5%;
+    transition: all .2s ease-in-out;
+    padding-bottom: 5%;
+  }
+
+  .preview-img:hover{
+    transform: scale(1.1);
+  }
+  .vert .carousel-item-next.carousel-item-left,
+  .vert .carousel-item-prev.carousel-item-right {
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+  }
+  
+  .vert .carousel-item-next,
+  .vert .active.carousel-item-right {
+      -webkit-transform: translate3d(0, 100%, 0);
+              transform: translate3d(0, 100% 0);
+  }
+  
+  .vert .carousel-item-prev,
+  .vert .active.carousel-item-left {
+  -webkit-transform: translate3d(0,-100%, 0);
+          transform: translate3d(0,-100%, 0);
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+
+
+  
+  h1 span {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  
+  .message {
+    background-color: white;
+    color: #333;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
