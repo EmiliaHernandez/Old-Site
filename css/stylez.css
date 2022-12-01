@@ -12,6 +12,49 @@
   }
  }
 
+ @media (min-width: 700px) {
+  .introductionText{
+    font-size: 200%;
+  }
+  .introductionHead{
+    font-size: 300%;
+  }
+ }
+ @media (min-width: 992px) {
+  .introductionText{
+    font-size: 120%;
+  }
+  .introductionHead{
+    font-size: 200%;
+  }
+ }
+
+ @media (min-width: 1200px) {
+  .introductionText{
+    font-size: 150%;
+  }
+  .introductionHead{
+    font-size: 220%;
+  }
+ }
+ @media (min-width: 1600px) {
+  .introductionText{
+    font-size: 200%;
+  }
+  .introductionHead{
+    font-size: 300%;
+  }
+ }
+
+ @media (min-width: 2000px) {
+  .introductionText{
+    font-size: 280%;
+  }
+  .introductionHead{
+    font-size: 400%;
+  }
+ }
+
 
  @media (min-width: 700px) {
   .largePegasusText{
