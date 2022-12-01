@@ -24,10 +24,10 @@
 
  @media (min-width: 700px) {
   .introductionText{
-    font-size: 200%;
+    font-size: 120%;
   }
   .introductionHead{
-    font-size: 300%;
+    font-size: 200%;
   }
  }
  @media (min-width: 992px) {
