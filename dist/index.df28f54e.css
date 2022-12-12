@@ -1,0 +1,40 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.image-card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.image-card {
+  width: 30%;
+}
+
+.card-text h3 {
+  font-size: 16px;
+}
+
+.all-cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.all-elephant-cards article img {
+  width: 300px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.all-elephant-cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.df28f54e.css.map */

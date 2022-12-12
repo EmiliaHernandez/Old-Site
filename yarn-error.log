@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\emili\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js global dir --json
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\emili\AppData\Local\Microsoft\WindowsApps;C:\Users\emili\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\emili\AppData\Local\GitHubDesktop\bin;C:\Users\emili\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: c:\Users\emili\OneDrive\Documents\GitHub\EmiliaHernandez.github.io\package.json: Unexpected token p in JSON at position 0
+      at JSON.parse (<anonymous>)
+      at C:\Users\emili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\emili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\emili\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  package.json:
+  {
+    "name": "my-project",
+    "source": "src/index.html",
+    "scripts": {
+      "start": "parcel",
+      "build": "parcel build"
+    },
+    "devDependencies": {
+      "parcel": "latest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
