@@ -534,11 +534,11 @@ function hmrAcceptRun(bundle, id) {
 },{}],"6o506":[function(require,module,exports) {
 // we will create an array of JS objects with the properties of our elephants
 // we use const here cause the variable doesn't change after
-// we have 4 items inside the array, each item is an object with 6 properties. An id, title, color, age, image and alt description.
+// we have 4 items inside the array, each item is an object with 6 properties. An id, name, color, age, image and alt description.
 const elephantsArray = [
     {
         id: 1,
-        title: "Brown elephant with Birds",
+        name: "Brown elephant with Birds",
         color: "brown",
         age: 12,
         pictureUrl: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80",
@@ -546,7 +546,7 @@ const elephantsArray = [
     },
     {
         id: 2,
-        title: "Black elephant",
+        name: "Black elephant",
         color: "black",
         age: 10,
         pictureUrl: "https://images.unsplash.com/photo-1503286666306-61c9985f16cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=929&q=80",
@@ -554,7 +554,7 @@ const elephantsArray = [
     },
     {
         id: 3,
-        title: "Blue old elephant",
+        name: "Blue old elephant",
         color: "blue",
         age: 19,
         pictureUrl: "https://images.unsplash.com/photo-1482237935571-d9b52bffe142?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80",
@@ -562,7 +562,7 @@ const elephantsArray = [
     },
     {
         id: 4,
-        title: "Green Mamoth Elephant",
+        name: "Green Mamoth Elephant",
         color: "green",
         age: 8,
         pictureUrl: "https://images.unsplash.com/photo-1534692499281-57d0f101789b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
@@ -577,14 +577,14 @@ elephantsArray.forEach(function(singleElephantObjects) {
     // uncomment the line below, to see each of the 4 objects rendered in the console.
     //console.log(singleElephantObjects);
     // we take our previous empty htmlCode variable and add our html codes to it.
-    // because the forEach method returns objects, we can then use the dot notation to reference children of the object, e.g, elephant.title;
+    // because the forEach method returns objects, we can then use the dot notation to reference children of the object, e.g, elephant.name;
     htmlCode = htmlCode + `
     <article>
       <div>
       <img src="${singleElephantObjects.pictureUrl}" alt="${singleElephantObjects.imageAlt}">
       </div>
       <div>
-      <h3>Title: ${singleElephantObjects.title}</h3>
+      <h3>name: ${singleElephantObjects.name}</h3>
       <p>Color: ${singleElephantObjects.color}</p>
       <p>Age: ${singleElephantObjects.age}</p>
       </div>

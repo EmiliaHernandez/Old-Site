@@ -2,44 +2,44 @@
 
 // we use const here cause the variable doesn't change after
 
-// we have 4 items inside the array, each item is an object with 6 properties. An id, title, color, age, image and alt description.
+// we have 4 items inside the array, each item is an object with 6 properties. An id, name, IP, desc, imdesc and alt description.
 
 const elephantsArray = [
   {
     id: 1,
-    title: "Brown elephant with Birds",
-    color: "brown",
-    age: 12,
+    name: "Byleth(Both Versions)",
+    IP: "Fire Emblem",
+    desc: "They are both fine",
     pictureUrl:
-      "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80",
-    imageAlt: "good looking elphant"
+      "https://pbs.twimg.com/media/EBoxPMzXUAA3URH.png",
+    imdescAlt: "They are both fine"
   },
   {
     id: 2,
-    title: "Black elephant",
-    color: "black",
-    age: 10,
+    name: "C3PO",
+    IP: "Star Wars",
+    desc: "gay is okay",
     pictureUrl:
-      "https://images.unsplash.com/photo-1503286666306-61c9985f16cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=929&q=80",
-    imageAlt: "dark elephant"
+      "https://preview.free3d.com/img/2015/03/2408157595903722762/meftys0n.jpg",
+    imdescAlt: "dark elephant"
   },
   {
     id: 3,
-    title: "Blue old elephant",
-    color: "blue",
-    age: 19,
+    name: "Cana",
+    IP: "Fairy Tail",
+    desc: "(.)(.)🍷",
     pictureUrl:
-      "https://images.unsplash.com/photo-1482237935571-d9b52bffe142?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80",
-    imageAlt: "papa elephant"
+      "https://64.media.tumblr.com/05c0d65f0ca79483eeea2d6e2eeb9c6e/tumblr_inline_o2wgyqHcRz1t4w1ob_400.png",
+    imdescAlt: "papa elephant"
   },
   {
     id: 4,
-    title: "Green Mamoth Elephant",
-    color: "green",
-    age: 8,
+    name: "Cassius 'Cash' Green",
+    IP: "Sorry to Both You",
+    desc: "wanted to name the cat after him if boy",
     pictureUrl:
-      "https://images.unsplash.com/photo-1534692499281-57d0f101789b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-    imageAlt: "playful elephant"
+      "https://goggler.my/wp-content/uploads/2020/03/sorry-to-bother-you-5e16f95e951ce.jpg",
+    imdescAlt: "playful elephant"
   }
 ];
 
@@ -55,20 +55,20 @@ elephantsArray.forEach(function(singleElephantObjects) {
 
   // we take our previous empty htmlCode variable and add our html codes to it.
 
-  // because the forEach method returns objects, we can then use the dot notation to reference children of the object, e.g, elephant.title;
+  // because the forEach method returns objects, we can then use the dot notation to reference children of the object, e.g, elephant.name;
   htmlCode =
     htmlCode +
     `
     <article>
       <div>
       <img src="${singleElephantObjects.pictureUrl}" alt="${
-      singleElephantObjects.imageAlt
+      singleElephantObjects.imdescAlt
     }">
       </div>
       <div>
-      <h3>Title: ${singleElephantObjects.title}</h3>
-      <p>Color: ${singleElephantObjects.color}</p>
-      <p>Age: ${singleElephantObjects.age}</p>
+      <h3>${singleElephantObjects.name}</h3>
+      <p>${singleElephantObjects.IP}</p>
+      <p>${singleElephantObjects.desc}</p>
       </div>
     </article>
   `;
