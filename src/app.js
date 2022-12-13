@@ -380,8 +380,60 @@ const elephantsArray = [
       "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/05/Stardew-Valley---Maru-wedding-(left)-Maru-portrait-(right).jpg",
     imdescAlt: ""
   },
-
-
+  {
+    id: 43,
+    name: "Wirt",
+    IP: "Over the Garden Wall",
+    desc: "I think I know where you can get the hat",
+    pictureUrl:
+      "https://i.pinimg.com/originals/25/98/90/259890c59ba120eac2bbc651760fb8d8.png",
+    imdescAlt: ""
+  },
+  {
+    id: 44,
+    name: "Kylo Ren",
+    IP: "Star Wars",
+    desc: "Since day 1",
+    pictureUrl:
+      "https://www.mensjournal.com/wp-content/uploads/2020/05/Driver.jpg?w=900&quality=86&strip=all",
+    imdescAlt: ""
+  },
+  {
+    id: 45,
+    name: "Optimus Prime",
+    IP: "Transformers",
+    desc: "he is just the best isnt he",
+    pictureUrl:
+      "https://itsastampede615821596.files.wordpress.com/2021/02/best-optimus-prime-movie-quotes.jpg?w=600",
+    imdescAlt: ""
+  },  {
+    id: 46,
+    name: "Rei/Sailor Mars",
+    IP: "Sailor Moon",
+    desc: "would beat you up",
+    pictureUrl:
+      "https://media3.giphy.com/media/11FAUcye6lC28E/giphy.gif",
+    imdescAlt: ""
+  },
+  {
+    id: 46,
+    name: "Sailor Neptune",
+    IP: "Sailor Moon",
+    desc: "Cannonically lesbian",
+    pictureUrl:
+      "https://i.pinimg.com/originals/53/db/80/53db8014b6a2020c9fd54f53240fdbb4.gif",
+    imdescAlt: ""
+  },
+  {
+    id: 47,
+    name: "Tuxedo Mask/Darrien",
+    IP: "Sailor Moon",
+    desc: "Full package",
+    pictureUrl:
+      "https://i.gifer.com/KFCQ.gif",
+    imdescAlt: ""
+  },
+//
 
   /*template for array
   {
