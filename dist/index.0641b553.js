@@ -698,9 +698,9 @@ const elephantsArray = [
     },
     {
         id: 21,
-        name: "Geordi Laforge",
+        name: "Geordi La Forge",
         IP: "Star Trek: Next Generation",
-        desc: "Engineer",
+        desc: "watching star trek:\uD83D\uDE34, Geordi starts talking:\uD83D\uDE33",
         pictureUrl: "https://i.insider.com/5652f613dd089511058b4636?width=750&format=jpeg&auto=webp",
         imdescAlt: ""
     },
@@ -746,77 +746,149 @@ const elephantsArray = [
     },
     {
         id: 27,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Izzy Daniels",
+        IP: "Jump In!",
+        desc: "favorite DCOM and it's not even close",
+        pictureUrl: "https://s.hdnux.com/photos/10/11/16/2134960/6/1200x0.jpg",
         imdescAlt: ""
     },
     {
         id: 28,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Ms. Bellum",
+        IP: "Powerpuff Girls",
+        desc: "mm",
+        pictureUrl: "https://tvline.com/wp-content/uploads/2021/03/powerpuff-girls-sara-bellum.jpg?w=620",
         imdescAlt: ""
     },
     {
         id: 29,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Wario",
+        IP: "Wario",
+        desc: "Only Omar Dogan's depiction of him",
+        pictureUrl: "https://preview.redd.it/virgin-luigi-chad-wario-all-credit-to-omardogan1976-on-v0-secqzt3059r91.jpg?width=640&crop=smart&auto=webp&s=d3f954219cbe3a8d7249cb538e0d94947a7aa245",
         imdescAlt: ""
     },
     {
         id: 30,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Lorna",
+        IP: "Over the Garden Wall",
+        desc: "voice",
+        pictureUrl: "https://i.pinimg.com/originals/e9/56/f7/e956f7008f610251418323e14185feec.png",
         imdescAlt: ""
     },
     {
         id: 31,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Yusuke Urameshi",
+        IP: "Yu Yu Hakusho",
+        desc: "mm",
+        pictureUrl: "https://i.pinimg.com/originals/06/49/85/064985d6314af40100052d6dbe0c84fc.gif",
         imdescAlt: ""
     },
     {
         id: 32,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Tanjiro",
+        IP: "Demon Slayer",
+        desc: "Mexican",
+        pictureUrl: "https://www.gifcen.com/wp-content/uploads/2022/03/tanjiro-gif-1.gif",
         imdescAlt: ""
     },
     {
         id: 33,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Valkyrae",
+        IP: "MCU",
+        desc: "I know what you are",
+        pictureUrl: "https://media.tenor.com/j0gSWGn-kRAAAAAd/valkyrie-thor-ragnarok.gif",
         imdescAlt: ""
     },
     {
         id: 34,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Spider-Man(ANY)",
+        IP: "Marvel",
+        desc: "Some are better than others",
+        pictureUrl: "https://thumbs.gfycat.com/AdorableLividJoey-size_restricted.gif",
         imdescAlt: ""
     },
     {
         id: 35,
-        name: "",
-        IP: "",
-        desc: "",
-        pictureUrl: "",
+        name: "Shino",
+        IP: "Naruto",
+        desc: "Bug boy",
+        pictureUrl: "https://media.tenor.com/FGcLOxieBtEAAAAM/shino-naruto.gif",
+        imdescAlt: ""
+    },
+    {
+        id: 36,
+        name: "Sebastian",
+        IP: "Stardew Valley",
+        desc: "el es emo?!",
+        pictureUrl: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/05/Stardew-Valley---Sebastian-wedding-(left)-Sebastians-portrait-(right).jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 37,
+        name: "Jack Skellington",
+        IP: "Nightmare before christmas",
+        desc: "He is special to me",
+        pictureUrl: "https://m.media-amazon.com/images/M/MV5BMTgwMjAyMzExN15BMl5BanBnXkFtZTcwMDg2ODMyMw@@._V1_.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 38,
+        name: "Howl Pendragon",
+        IP: "Howl's Moving Castle",
+        desc: "Movie is boring as hell but wow",
+        pictureUrl: "https://p.favim.com/orig/2018/11/17/studio-ghibli-gif-howl39s-moving-castle-Favim.com-6536864.gif",
+        imdescAlt: ""
+    },
+    {
+        id: 39,
+        name: "Mordecai",
+        IP: "Regular Show",
+        desc: "This is a voice-based decision",
+        pictureUrl: "https://external-preview.redd.it/IFydAkETBrHEDINecNyqKLjdXd9pRFNdqdBL2-HocrY.png?width=640&crop=smart&auto=webp&s=e3dcfafac827ab363f588aa89496b4a124477842",
+        imdescAlt: ""
+    },
+    {
+        id: 40,
+        name: "Paddington Bear",
+        IP: "Paddington",
+        desc: "I adore him",
+        pictureUrl: "https://media.npr.org/assets/img/2018/06/05/pb2-ra-00012_wide-e13ace2630a1419a87931c3f2059e3734275f16c.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 41,
+        name: "Rodrick Heffley",
+        IP: "Diary of a Wimpy Kid",
+        desc: "He's been here for 12 years",
+        pictureUrl: "https://carboncostume.com/wordpress/wp-content/uploads/2020/08/rodrickheffley-diaryofawimpykid-character-1.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 42,
+        name: "Maru",
+        IP: "Stardew Valley",
+        desc: "STEM girl swag",
+        pictureUrl: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/05/Stardew-Valley---Maru-wedding-(left)-Maru-portrait-(right).jpg",
         imdescAlt: ""
     }
 ];
+shuffle(elephantsArray);
+function shuffle(elephantsArray) {
+    let currentIndex = elephantsArray.length, randomIndex;
+    // While there remain elements to shuffle.
+    while(currentIndex != 0){
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        // And swap it with the current element.
+        [elephantsArray[currentIndex], elephantsArray[randomIndex]] = [
+            elephantsArray[randomIndex],
+            elephantsArray[currentIndex]
+        ];
+    }
+    return elephantsArray;
+}
 //https://static.wikia.nocookie.net/powerlisting/images/7/78/Rose_Whip.gif/revision/latest?cb=20190307190944
 let htmlCode = ``;
 // to get each single elephant object from the array and use them to build out html string, we need to open up our array, and we do that using forEach method. The forEach method, finds each item(object) in the array and returns them, this means we get 4 items that are objects back.
