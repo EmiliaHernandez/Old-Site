@@ -236,6 +236,87 @@ const elephantsArray = [
       "https://animesher.com/orig/1/190/1905/19056/animesher.com_long-hair-green-eyes-shuichi-minamino-1905613.gif",
     imdescAlt: ""
   },
+  {
+    id: 27,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 28,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 29,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 30,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 31,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 32,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 33,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 34,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
+  {
+    id: 35,
+    name: "",
+    IP: "",
+    desc: "",
+    pictureUrl:
+      "",
+    imdescAlt: ""
+  },
 
   /*template for array
   {

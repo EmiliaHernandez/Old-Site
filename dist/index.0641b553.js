@@ -743,6 +743,78 @@ const elephantsArray = [
         desc: "Pink is my favorite color",
         pictureUrl: "https://animesher.com/orig/1/190/1905/19056/animesher.com_long-hair-green-eyes-shuichi-minamino-1905613.gif",
         imdescAlt: ""
+    },
+    {
+        id: 27,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 28,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 29,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 30,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 31,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 32,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 33,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 34,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 35,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
     }
 ];
 //https://static.wikia.nocookie.net/powerlisting/images/7/78/Rose_Whip.gif/revision/latest?cb=20190307190944
