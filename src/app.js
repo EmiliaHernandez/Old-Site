@@ -433,6 +433,42 @@ const elephantsArray = [
       "https://i.gifer.com/KFCQ.gif",
     imdescAlt: ""
   },
+  {
+    id: 47,
+    name: "Joker",
+    IP: "Persona",
+    desc: "Has anyone ever told you you look like Joker?",
+    pictureUrl:
+      "https://i.pinimg.com/originals/26/2e/b8/262eb8a2aee4e7e12f60203ca8dcf8e4.png",
+    imdescAlt: ""
+  },
+  {
+    id: 48,
+    name: "Strawberry Shortcake Cast",
+    IP: "PStrawberry Shortcake",
+    desc: "What if we dressed up like them? 😳",
+    pictureUrl:
+      "https://imageservice.disco.peacocktv.com/uuid/4facfd79-e113-3e1c-a82a-36f8a2b13707/LAND_16_9?language=eng&territory=US&proposition=NBCUOTT&version=deab97bc-02c5-3ab4-b50d-939b7384f18a",
+    imdescAlt: ""
+  },
+  {
+    id: 49,
+    name: "Jigen",
+    IP: "Lupin The Third",
+    desc: "Something about eyeless characters",
+    pictureUrl:
+      "https://i.kym-cdn.com/photos/images/original/001/240/601/47b.gif",
+    imdescAlt: ""
+  },
+  {
+    id: 50,
+    name: "Gordon Ramsay",
+    IP: "Food",
+    desc: "Subscribed",
+    pictureUrl:
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_16/1426313/gordon-ramsay-today-main-190416.jpg",
+    imdescAlt: ""
+  },
 //
 
   /*template for array
