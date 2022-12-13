@@ -49,12 +49,13 @@ body {
 .all-elephant-cards {
   color: #000;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 20px;
   display: flex;
 }
 
 article {
+  margin: auto;
   margin-bottom: inherit;
   background-color: #fff;
   padding-left: 10px;

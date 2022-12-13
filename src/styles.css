@@ -51,7 +51,7 @@ body {
 
 .all-elephant-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
   color: rgb(0, 0, 0);
@@ -61,6 +61,7 @@ article{
   background-color: rgb(255, 255, 255);
   padding-left: 10px;
   padding-right: 10px;
+  margin: auto;
   margin-bottom: inherit;
 }
 
