@@ -951,6 +951,86 @@ const elephantsArray = [
         desc: "Subscribed",
         pictureUrl: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_16/1426313/gordon-ramsay-today-main-190416.jpg",
         imdescAlt: ""
+    },
+    {
+        id: 51,
+        name: "Rin",
+        IP: "Fruits Basket",
+        desc: "She's so fucked up",
+        pictureUrl: "https://otakuauthor.com/wp-content/uploads/2020/07/Fruits-Basket-Episode-39-Rin.jpg",
+        imdescAlt: "Rin from fruits basket"
+    },
+    {
+        id: 52,
+        name: "Juvia",
+        IP: "Fairy Tail",
+        desc: "Wow she's literally me",
+        pictureUrl: "https://i.redd.it/atqs63qro4o81.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 53,
+        name: "Mindy",
+        IP: "Drake & Josh",
+        desc: "I haven't seen one like her since",
+        pictureUrl: "https://e.radio-grpp.io/large/2018/07/12/075607_645220.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 54,
+        name: "Sailor Jupiter",
+        IP: "Sailor Moon",
+        desc: "she actually beats up dudes",
+        pictureUrl: "https://carboncostume.com/wordpress/wp-content/uploads/2022/02/sailor-jupiter-from-sailor-moon.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 55,
+        name: "Sucker Punch Cast",
+        IP: "Sucker Punch",
+        desc: "It was ahead of its time",
+        pictureUrl: "https://cdn.mos.cms.futurecdn.net/JX5KBgSTasEdaTHiUckamg.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 56,
+        name: "Asuna",
+        IP: "Sword Art Online",
+        desc: "Merch, I had merch",
+        pictureUrl: "https://media.tenor.com/enIv4g7nYkUAAAAC/yuuki-asuna-sword-art-online.gif",
+        imdescAlt: ""
+    },
+    {
+        id: 57,
+        name: "The Bratz",
+        IP: "Bratz",
+        desc: "Some are better than others",
+        pictureUrl: "https://static.tvtropes.org/pmwiki/pub/images/uivnay6dc7595jxobzypedmqqj3gzida_yky7bdf9kuyyzdioe2hkul28egj.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 58,
+        name: "Chiyuki",
+        IP: "Death Parade",
+        desc: "I don't care about that man",
+        pictureUrl: "https://img.hulu.com/user/v3/artwork/08580b61-4168-4a11-97a9-f606b8e5989a?base_image_bucket_name=image_manager&base_image=87bd71c5-7a6b-4e01-8556-2b74ef6f5456&size=600x338&format=jpeg",
+        imdescAlt: ""
+    },
+    {
+        id: 59,
+        name: "Tsubaki",
+        IP: "Soul Eater",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
+    },
+    {
+        id: 60,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "",
+        imdescAlt: ""
     }
 ];
 shuffle(elephantsArray);
