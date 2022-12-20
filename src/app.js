@@ -545,18 +545,18 @@ const elephantsArray = [
     id: 59,
     name: "Tsubaki",
     IP: "Soul Eater",
-    desc: "",
+    desc: "i hate that blue boy",
     pictureUrl:
-      "",
+      "https://wallpapercave.com/wp/wp8351581.jpg",
     imdescAlt: ""
   },
   {
     id: 60,
-    name: "",
-    IP: "",
-    desc: "",
+    name: "Tae Takemi",
+    IP: "Persona",
+    desc: "im ill",
     pictureUrl:
-      "",
+      "https://i.pinimg.com/736x/bf/02/08/bf020843c00f24fd3f40a8f9459f1175.jpg",
     imdescAlt: ""
   },
 
