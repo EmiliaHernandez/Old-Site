@@ -559,6 +559,97 @@ const elephantsArray = [
       "https://i.pinimg.com/736x/bf/02/08/bf020843c00f24fd3f40a8f9459f1175.jpg",
     imdescAlt: ""
   },
+  {
+    id: 61,
+    name: "Brock",
+    IP: "Pokemon",
+    desc: "nostalgia",
+    pictureUrl:
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/brock-cerulean-city.jpg",
+    imdescAlt: "brock"
+  },
+  {
+    id: 62,
+    name: "Remy",
+    IP: "Ratouille",
+    desc: "he makes me go ra-ta-toing",
+    pictureUrl:
+      "https://static01.nyt.com/images/2020/11/22/multimedia/00xp-ratatouille/00xp-ratatouille-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+    imdescAlt: ""
+  },
+  {
+    id: 63,
+    name: "Rock Lee",
+    IP: "Naruto",
+    desc: "hehe",
+    pictureUrl:
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/rock-lee-Cropped.jpg",
+    imdescAlt: ""
+  },
+  {
+    id: 64,
+    name: "Mike",
+    IP: "Warioware",
+    desc: "pew pew",
+    pictureUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqBZahkUwLVGTacPjASZyO0SzO9bQkFad07A&usqp=CAU",
+    imdescAlt: ""
+  },
+  {
+    id: 65,
+    name: "Puss in boots",
+    IP: "Shrek",
+    desc: "antonio banderas",
+    pictureUrl:
+      "https://i.ytimg.com/vi/vaJ2yQC_ktY/maxresdefault.jpg",
+    imdescAlt: ""
+  },
+  {
+    id: 66,
+    name: "Tinker Bell Fairies",
+    IP: "TinkerBell",
+    desc: "eeeee",
+    pictureUrl:
+      "https://i.pinimg.com/originals/94/c6/d0/94c6d00c4997dc550f265de308f49c55.jpg",
+    imdescAlt: ""
+  },
+  {
+    id: 67,
+    name: "RON(LEGO)",
+    IP: "Lego",
+    desc: "i collect them",
+    pictureUrl:
+      "https://www.lego.com/cdn/cs/set/assets/blta631cc3f048ae96a/HP-Char_Ron_1-Sidekick-Tall.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1",
+    imdescAlt: ""
+  },
+  {
+    id: 68,
+    name: "Edward Scissorhands",
+    IP: "Edward Scissorhands",
+    desc: "he's different",
+    pictureUrl:
+      "https://variety.com/wp-content/uploads/2015/12/edward-scissorhands.jpg",
+    imdescAlt: ""
+  },
+  {
+    id: 69,
+    name: "Jade",
+    IP: "Victorious",
+    desc: "she was so mean",
+    pictureUrl:
+      "https://64.media.tumblr.com/e9735a0ec354689fbbf3db2d5342a4eb/tumblr_inline_o0nxfo9FqY1r8mwrd_540.jpg",
+    imdescAlt: ""
+  },
+  {
+    id: 70,
+    name: "Monster High Full Cast",
+    IP: "Monster High",
+    desc: "They all rule",
+    pictureUrl:
+      "https://i.ytimg.com/vi/jaWdRAjEUkw/maxresdefault.jpg",
+    imdescAlt: ""
+  },
+
 
 //
 
