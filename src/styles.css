@@ -88,3 +88,24 @@ article{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.introMobile{
+  padding-top:50%;
+  padding-bottom:50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 200%;
+}
+
+@media (min-width: 930px) {
+  .mobile-view {
+    display: none;
+  }
+}
+
+/* do not display for small screens */
+@media (max-width: 930px) {
+  .web-view {
+    display: none;
+  }
+}
