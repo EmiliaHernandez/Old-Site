@@ -989,7 +989,7 @@ const elephantsArray = [
         name: "Sucker Punch Cast",
         IP: "Sucker Punch",
         desc: "It was ahead of its time",
-        pictureUrl: "https://cdn.mos.cms.futurecdn.net/JX5KBgSTasEdaTHiUckamg.jpg",
+        pictureUrl: "https://www.looper.com/img/gallery/what-the-cast-of-sucker-punch-looks-like-today/intro-1571267408.jpg",
         imdescAlt: ""
     },
     {
@@ -1157,7 +1157,7 @@ const elephantsArray = [
         name: "Kirito",
         IP: "Sword Art Online",
         desc: "I want to be him and asuna at points",
-        pictureUrl: "https://static.wikia.nocookie.net/swordartonline/images/6/67/Kirito_SAO.png/revision/latest?cb=20140228021241",
+        pictureUrl: "https://imgix.bustle.com/inverse/e2/4c/2c/21/1d4b/4742/9d76/b8f63af9a85a/kirito-is-the-protagonist-in-a-show-based-on-a-light-novel-series-in-which-people-get-trapped-in-a-v.png?w=1200&h=630&fit=crop&crop=faces&fm=jpg",
         imdescAlt: ""
     },
     {
@@ -1221,7 +1221,7 @@ const elephantsArray = [
         name: "Karen",
         IP: "Spongebob",
         desc: "she was in charge",
-        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fspongebobgalaxy.fandom.com%2Fwiki%2FKaren_Plankton&psig=AOvVaw0kDAa9BUWHrjTLgDBGJdk4&ust=1673988945703000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMC1zPb8zPwCFQAAAAAdAAAAABAQ",
+        pictureUrl: "https://static1.personality-database.com/profile_images/97345631d430477ea09a01c7b51dda4d.png",
         imdescAlt: ""
     },
     {
@@ -1253,7 +1253,7 @@ const elephantsArray = [
         name: "Tom",
         IP: "Star vs the Forces of Evil",
         desc: "a theme is emerging",
-        pictureUrl: "https://static.wikia.nocookie.net/star-and-the-forces-of-evil/images/2/29/S3E12_Star_and_Tom_walking_together_with_pinwheels.png/revision/latest/scale-to-width-down/1920?cb=20171116043411",
+        pictureUrl: "https://media.tenor.com/2VqIS7uuMcgAAAAC/tom-lucitor-star-vs-the-forces-of-evil.gif",
         imdescAlt: ""
     },
     {
@@ -1261,7 +1261,7 @@ const elephantsArray = [
         name: "Kyoya",
         IP: "Ouran Highschool Host Club",
         desc: "we've all seen the episode",
-        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.roleplaygateway.com%2Funiverses%2Fouran-high-school-host-club-college-years%2Fcharacters%2Fkyoya-ootori&psig=AOvVaw25cC8o1RYrbmnNQy5nq2kN&ust=1673990772525000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDI192DzfwCFQAAAAAdAAAAABAY",
+        pictureUrl: "http://img1.ak.crunchyroll.com/i/spire4/05142008/d/d/e/3/dde36b3446a2c0_full.jpg",
         imdescAlt: ""
     },
     {
@@ -1269,7 +1269,7 @@ const elephantsArray = [
         name: "Alex",
         IP: "Wizards of Waverly Place",
         desc: "shaped a generation",
-        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.j-14.com%2Fposts%2Fselena-gomez-wizards-of-waverly-place-wand-137845%2F&psig=AOvVaw1U-U-MbDkI9Zel2vmI_VGT&ust=1673990894108000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOis65eEzfwCFQAAAAAdAAAAABAE",
+        pictureUrl: "https://www.j-14.com/wp-content/uploads/2017/07/selena-gomez-alex-russo-wizards.jpg?fit=1200%2C681&quality=86&strip=all",
         imdescAlt: ""
     },
     {
@@ -1293,7 +1293,7 @@ const elephantsArray = [
         name: "Baymax",
         IP: "Big Hero 6",
         desc: "",
-        pictureUrl: "https://www.google.com/imgres?imgurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Fpp_baymax_herobanner_mobile_22586_56a97a34.jpeg%3Fregion%3D0%2C0%2C640%2C480&imgrefurl=https%3A%2F%2Fdisneyplusoriginals.disney.com%2Fshow%2Fbaymax&tbnid=Opy55rP-zwL-hM&vet=12ahUKEwjkp6D1hs38AhXD2FMKHW1eAs0QMygBegUIARDuAQ..i&docid=PccSWJ3FaIjb0M&w=640&h=480&q=baymax&ved=2ahUKEwjkp6D1hs38AhXD2FMKHW1eAs0QMygBegUIARDuAQ",
+        pictureUrl: "https://lumiere-a.akamaihd.net/v1/images/pp_baymax_herobanner_mobile_22586_56a97a34.jpeg?region=0,0,640,480",
         imdescAlt: ""
     },
     {
@@ -1301,7 +1301,7 @@ const elephantsArray = [
         name: "Mr.Mint",
         IP: "Candyland",
         desc: "looks so well-meaning",
-        pictureUrl: "https://static.wikia.nocookie.net/candy-land/images/c/c3/Candy_Land_1999_Mister_Mint_Board.jpg/revision/latest?cb=20211214192938",
+        pictureUrl: "https://i.pinimg.com/originals/e2/2a/f7/e22af7e7a9990e3f684dbc9e29eda8b4.jpg",
         imdescAlt: ""
     },
     {
@@ -1317,7 +1317,7 @@ const elephantsArray = [
         name: "Soul",
         IP: "Soul Eater",
         desc: "...",
-        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fen%2FVqjX&psig=AOvVaw0u9wx9XYp0tUY6-SdSjvMZ&ust=1673994100045000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCPDPwo-QzfwCFQAAAAAdAAAAABAZ",
+        pictureUrl: "https://i.gifer.com/VqjX.gif",
         imdescAlt: ""
     },
     {
