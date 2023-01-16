@@ -1031,6 +1031,326 @@ const elephantsArray = [
         desc: "im ill",
         pictureUrl: "https://i.pinimg.com/736x/bf/02/08/bf020843c00f24fd3f40a8f9459f1175.jpg",
         imdescAlt: ""
+    },
+    {
+        id: 61,
+        name: "Brock",
+        IP: "Pokemon",
+        desc: "vhs tape brock",
+        pictureUrl: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/brock-cerulean-city.jpg",
+        imdescAlt: "brock"
+    },
+    {
+        id: 62,
+        name: "Remy",
+        IP: "Ratouille",
+        desc: "he makes me go ra-ta-toing",
+        pictureUrl: "https://static01.nyt.com/images/2020/11/22/multimedia/00xp-ratatouille/00xp-ratatouille-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
+        imdescAlt: ""
+    },
+    {
+        id: 63,
+        name: "Rock Lee",
+        IP: "Naruto",
+        desc: "hehe",
+        pictureUrl: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/09/rock-lee-Cropped.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 64,
+        name: "Mike",
+        IP: "Warioware",
+        desc: "pew pew",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqBZahkUwLVGTacPjASZyO0SzO9bQkFad07A&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 65,
+        name: "Puss in boots",
+        IP: "Shrek",
+        desc: "antonio banderas",
+        pictureUrl: "https://i.ytimg.com/vi/vaJ2yQC_ktY/maxresdefault.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 66,
+        name: "Tinker Bell Fairies",
+        IP: "TinkerBell",
+        desc: "all eligible, some are better",
+        pictureUrl: "https://i.pinimg.com/originals/94/c6/d0/94c6d00c4997dc550f265de308f49c55.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 67,
+        name: "RON(LEGO)",
+        IP: "Lego",
+        desc: "i collect them",
+        pictureUrl: "https://www.lego.com/cdn/cs/set/assets/blta631cc3f048ae96a/HP-Char_Ron_1-Sidekick-Tall.jpg?fit=crop&format=jpg&quality=80&width=800&height=600&dpr=1",
+        imdescAlt: ""
+    },
+    {
+        id: 68,
+        name: "Edward Scissorhands",
+        IP: "Edward Scissorhands",
+        desc: "he's different",
+        pictureUrl: "https://variety.com/wp-content/uploads/2015/12/edward-scissorhands.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 69,
+        name: "Jade",
+        IP: "Victorious",
+        desc: "she was so mean",
+        pictureUrl: "https://64.media.tumblr.com/e9735a0ec354689fbbf3db2d5342a4eb/tumblr_inline_o0nxfo9FqY1r8mwrd_540.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 70,
+        name: "Monster High Full Cast",
+        IP: "Monster High",
+        desc: "Everyone is eligible really",
+        pictureUrl: "https://i.ytimg.com/vi/jaWdRAjEUkw/maxresdefault.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 71,
+        name: "Steve",
+        IP: "Blue's Clues",
+        desc: "who doesn't",
+        pictureUrl: "  https://thumbs.gfycat.com/AngelicEllipticalAndeancondor-max-1mb.gif",
+        imdescAlt: ""
+    },
+    {
+        id: 72,
+        name: "x-men(all)",
+        IP: "x-men",
+        desc: "i cant choose",
+        pictureUrl: "https://www.looper.com/img/gallery/x-men-characters-we-want-to-see-more-of-in-x-men-97/intro-1638296765.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 73,
+        name: "Danny Fenton",
+        IP: "Danny Phantom",
+        desc: "black hair",
+        pictureUrl: "https://i.gifer.com/LIuk.gif",
+        imdescAlt: ""
+    },
+    {
+        id: 74,
+        name: "Gray Fullbuster",
+        IP: "Fairy Tail",
+        desc: "no comment",
+        pictureUrl: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00b0256b-bb51-4081-82b2-ee6d78e3aa81/d63xuo8-3bed56d7-065c-4bca-b341-2d89bdd6feed.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAwYjAyNTZiLWJiNTEtNDA4MS04MmIyLWVlNmQ3OGUzYWE4MVwvZDYzeHVvOC0zYmVkNTZkNy0wNjVjLTRiY2EtYjM0MS0yZDg5YmRkNmZlZWQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8WDaMs93ykkv2js-FXskkpwvA8uL-2JAa0IMkwmUCTY",
+        imdescAlt: ""
+    },
+    {
+        id: 75,
+        name: "Hubert",
+        IP: "Fire Emblem",
+        desc: "emo",
+        pictureUrl: "https://cdnen.samurai-gamers.com/wp-content/uploads/2019/08/02123851/hubertperfectteatime.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 76,
+        name: "Kirito",
+        IP: "Sword Art Online",
+        desc: "I want to be him and asuna at points",
+        pictureUrl: "https://static.wikia.nocookie.net/swordartonline/images/6/67/Kirito_SAO.png/revision/latest?cb=20140228021241",
+        imdescAlt: ""
+    },
+    {
+        id: 77,
+        name: "Mr PeanutButter",
+        IP: "Bojack horseman",
+        desc: "havent finished the show",
+        pictureUrl: "https://www.themarysue.com/wp-content/uploads/2019/07/How-BoJack-Horsemans-Mr.-Peanutbetter-Exposes-the-Problem-with-Nice-Guys.jpg?resize=1200%2C675",
+        imdescAlt: ""
+    },
+    {
+        id: 78,
+        name: "Noface",
+        IP: "spirited away",
+        desc: "quiet guy",
+        pictureUrl: "https://thumbs.gfycat.com/CandidNegligibleAmericanwarmblood-max-1mb.gif",
+        imdescAlt: ""
+    },
+    {
+        id: 79,
+        name: "Pheonix Wright",
+        IP: "Ace Attorney",
+        desc: "smart",
+        pictureUrl: "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/07/Ace-Attorney-Phoenix-Wright-Sweating-Suit-Court-Trial-Feature.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 80,
+        name: "Tokioka",
+        IP: "Demon Slayer",
+        desc: "so cool",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXjhmfIjsPnrvrXj1nSGSJqPs_X8wGE_6tKg&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 81,
+        name: "Inosuke",
+        IP: "Demon Slayer",
+        desc: "cat noir and kirito are to blame",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ROYkyX9QUlPnvam8EQQMjARl_cDm7pn6Rg&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 82,
+        name: "Zero",
+        IP: "Grand Budapest Hotel",
+        desc: "he is in my old sketchbooks",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ygNwiaOCmzKMxH3ffEydJTgPHmfSWCrqsg&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 83,
+        name: "Sky high cast",
+        IP: "Sky High",
+        desc: "couldnt find a pic with all the characters",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJPvn-dJ9IxNkH35EbdAFG44AVgdwZKS4n7Q&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 84,
+        name: "Karen",
+        IP: "Spongebob",
+        desc: "she was in charge",
+        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fspongebobgalaxy.fandom.com%2Fwiki%2FKaren_Plankton&psig=AOvVaw0kDAa9BUWHrjTLgDBGJdk4&ust=1673988945703000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMC1zPb8zPwCFQAAAAAdAAAAABAQ",
+        imdescAlt: ""
+    },
+    {
+        id: 85,
+        name: "Gary",
+        IP: "Spongebob",
+        desc: "uhh..meow?",
+        pictureUrl: "https://assets.entrepreneur.com/content/3x2/2000/20180521195827-gary-spongebob.jpeg",
+        imdescAlt: ""
+    },
+    {
+        id: 86,
+        name: "Mikasa",
+        IP: "Attack on Titan",
+        desc: "yeah",
+        pictureUrl: "https://inasianspaces.files.wordpress.com/2022/01/7d3yupk.png?w=1200",
+        imdescAlt: ""
+    },
+    {
+        id: 87,
+        name: "Ponyo",
+        IP: "Ponyo",
+        desc: "i want her as a pet",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXvHcNbHaH6nAunxEiDilsWd4ggV5xHctKng&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 88,
+        name: "Tom",
+        IP: "Star vs the Forces of Evil",
+        desc: "a theme is emerging",
+        pictureUrl: "https://static.wikia.nocookie.net/star-and-the-forces-of-evil/images/2/29/S3E12_Star_and_Tom_walking_together_with_pinwheels.png/revision/latest/scale-to-width-down/1920?cb=20171116043411",
+        imdescAlt: ""
+    },
+    {
+        id: 89,
+        name: "Kyoya",
+        IP: "Ouran Highschool Host Club",
+        desc: "we've all seen the episode",
+        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.roleplaygateway.com%2Funiverses%2Fouran-high-school-host-club-college-years%2Fcharacters%2Fkyoya-ootori&psig=AOvVaw25cC8o1RYrbmnNQy5nq2kN&ust=1673990772525000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDI192DzfwCFQAAAAAdAAAAABAY",
+        imdescAlt: ""
+    },
+    {
+        id: 90,
+        name: "Alex",
+        IP: "Wizards of Waverly Place",
+        desc: "shaped a generation",
+        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.j-14.com%2Fposts%2Fselena-gomez-wizards-of-waverly-place-wand-137845%2F&psig=AOvVaw1U-U-MbDkI9Zel2vmI_VGT&ust=1673990894108000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOis65eEzfwCFQAAAAAdAAAAABAE",
+        imdescAlt: ""
+    },
+    {
+        id: 91,
+        name: "",
+        IP: "",
+        desc: "",
+        pictureUrl: "https://1gamerdash.com/wp-content/uploads/2020/10/among-us-imposter.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 92,
+        name: "DR. Spencer Reid",
+        IP: "Criminal Minds",
+        desc: "quirky",
+        pictureUrl: "https://i.ytimg.com/vi/r4hsieA1ylU/maxresdefault.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 93,
+        name: "Baymax",
+        IP: "Big Hero 6",
+        desc: "",
+        pictureUrl: "https://www.google.com/imgres?imgurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Fpp_baymax_herobanner_mobile_22586_56a97a34.jpeg%3Fregion%3D0%2C0%2C640%2C480&imgrefurl=https%3A%2F%2Fdisneyplusoriginals.disney.com%2Fshow%2Fbaymax&tbnid=Opy55rP-zwL-hM&vet=12ahUKEwjkp6D1hs38AhXD2FMKHW1eAs0QMygBegUIARDuAQ..i&docid=PccSWJ3FaIjb0M&w=640&h=480&q=baymax&ved=2ahUKEwjkp6D1hs38AhXD2FMKHW1eAs0QMygBegUIARDuAQ",
+        imdescAlt: ""
+    },
+    {
+        id: 94,
+        name: "Mr.Mint",
+        IP: "Candyland",
+        desc: "looks so well-meaning",
+        pictureUrl: "https://static.wikia.nocookie.net/candy-land/images/c/c3/Candy_Land_1999_Mister_Mint_Board.jpg/revision/latest?cb=20211214192938",
+        imdescAlt: ""
+    },
+    {
+        id: 95,
+        name: "Bibble",
+        IP: "Barbie",
+        desc: "AHHH",
+        pictureUrl: "https://i.kym-cdn.com/entries/icons/original/000/026/942/bibble.jpg",
+        imdescAlt: ""
+    },
+    {
+        id: 96,
+        name: "Soul",
+        IP: "Soul Eater",
+        desc: "...",
+        pictureUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fen%2FVqjX&psig=AOvVaw0u9wx9XYp0tUY6-SdSjvMZ&ust=1673994100045000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCPDPwo-QzfwCFQAAAAAdAAAAABAZ",
+        imdescAlt: ""
+    },
+    {
+        id: 97,
+        name: "Tohru Honda",
+        IP: "Fruits Basket",
+        desc: "She solos goku",
+        pictureUrl: "https://preview.redd.it/5fw0nl85t3571.jpg?auto=webp&s=db79eb99440d30895822d5f3a645bd2a76fc1ee1",
+        imdescAlt: ""
+    },
+    {
+        id: 98,
+        name: "Misa Amane",
+        IP: "Death Note",
+        desc: "Light didn't know what he had",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHQL7IbMtR-_JKqF4yjLyF4-9_oeaDdcq-Q&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 99,
+        name: "Miku",
+        IP: "Miku!",
+        desc: "She is an it girl",
+        pictureUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMRlNsL62up9bEEoOjzyJ6CuUab4G2yGSteA&usqp=CAU",
+        imdescAlt: ""
+    },
+    {
+        id: 100,
+        name: "BMO",
+        IP: "Adventure Time",
+        desc: "BMO",
+        pictureUrl: "https://i.pinimg.com/originals/0a/6b/18/0a6b1810658fc8fea23038f961435151.jpg",
+        imdescAlt: ""
     }
 ];
 shuffle(elephantsArray);

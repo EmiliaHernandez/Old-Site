@@ -84,4 +84,24 @@ article {
   padding-bottom: 20%;
 }
 
+.introMobile {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  font-size: 200%;
+}
+
+@media (min-width: 930px) {
+  .mobile-view {
+    display: none;
+  }
+}
+
+@media (max-width: 930px) {
+  .web-view {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
