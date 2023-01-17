@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background-color:rgb(18, 18, 18) !important ;
+  font-family: 'EB Garamond', serif !important;
+  color: rgb(255, 255, 255);
+}
+.bottomArrow{
+  text-decoration: none;
+  color: white;
+  font-size: xxx-large;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.image-card img {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.image-card {
+  width: 30%;
+}
+
+
+@media (max-width: 415px) {
+  .all-elephant-cards article img {
+    width: 800px;
+    height: 650px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .intro{
+    font-size:120%;
+  }
+}
+
+@media (min-width: 415px) {
+  .all-elephant-cards article img {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  }
+
+.card-text h3 {
+  font-size: 16px;
+}
+
+.all-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.all-elephant-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+article{
+  background-color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  margin-bottom: inherit;
+}
+
+.intro{
+  padding-top:20%;
+  padding-bottom:20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
