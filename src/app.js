@@ -919,7 +919,15 @@ const elephantsArray = [
       "https://i.pinimg.com/originals/0a/6b/18/0a6b1810658fc8fea23038f961435151.jpg",
     imdescAlt: ""
   },
-
+  {
+    id: 101,
+    name: "Obi-Wan Kenobi",
+    IP: "Star Wars",
+    desc: "juan kenobi",
+    pictureUrl:
+      "https://media.moddb.com/images/downloads/1/223/222579/kenobi_ep3.png",
+    imdescAlt: "for eddie"
+  },
 
 
 
