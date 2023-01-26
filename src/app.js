@@ -928,6 +928,15 @@ const elephantsArray = [
       "https://media.moddb.com/images/downloads/1/223/222579/kenobi_ep3.png",
     imdescAlt: "for eddie"
   },
+  {
+    id: 102,
+    name: "Morel",
+    IP: "HunterxHunter",
+    desc: "*aggressive coughing and weezing*",
+    pictureUrl:
+      "https://i.pinimg.com/originals/33/fb/54/33fb5405ae2528e31fc9e11d9941a289.jpg",
+    imdescAlt: ""
+  },
 
 
 
@@ -943,6 +952,9 @@ const elephantsArray = [
       "",
     imdescAlt: ""
   },
+
+https://preview.redd.it/8rjll1xwag591.jpg?width=1920&format=pjpg&auto=webp&s=a66b190d7e17bead3d4968be85b6c356b1559533
+
 https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Mikasa-Ackermann.Attack-on-Titan.webp
   */
 ];
