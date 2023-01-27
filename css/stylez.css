@@ -341,6 +341,12 @@ padding-top: 3%;
   }
 }
 
+.footer-me{
+  padding: 4%;
+  margin: auto; 
+  color: aliceblue;
+}
+
   .dark
   {
       background-color: rgb(32, 32, 32);
