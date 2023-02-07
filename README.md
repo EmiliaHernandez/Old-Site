@@ -1,3 +1,3 @@
-Website Under Construction
+This is the repo fo rmy portfolio, where you can find my artwork, developed projects, and samples of some of my work experience. 
 
-Please return in January 2023 to view my portfolio :)
+Throughout my site you can specifically see my: web development, graphic design, game development, murals, and misc internship work. II hope you enjoy! ⭐
