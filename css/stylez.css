@@ -362,7 +362,9 @@ padding-top: 3%;
 .xxl-fix{
   text-size-adjust: large;
 }
-
+.activetabz
+{background-color: white;
+color: black;}
 .comparing-web{
   margin: auto; 
   color: aliceblue;
@@ -386,7 +388,16 @@ padding-top: 3%;
     padding-top: 7%;
     font-family: 'Alike Angular', serif;
   }
-
+@media (max-width: 1118px){
+  .help{
+    font-size: 1rem !important;
+  }
+  .infoTronSide{
+    margin-top: 0px;
+    padding-top: 3%;
+    font-family: 'Alike Angular', serif;
+  }
+}
   .aAngular{
     font-family: 'Alike Angular', serif;
   }

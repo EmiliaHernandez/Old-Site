@@ -10,5 +10,18 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3"
-  }
+  },
+  "description": "This is the repo fo rmy portfolio, where you can find my artwork, developed projects, and samples of some of my work experience.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmiliaHernandez/EmiliaHernandez.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmiliaHernandez/EmiliaHernandez.github.io/issues"
+  },
+  "homepage": "https://github.com/EmiliaHernandez/EmiliaHernandez.github.io#readme"
 }
