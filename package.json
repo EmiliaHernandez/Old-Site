@@ -3,7 +3,9 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "parcel": "latest"
@@ -23,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/EmiliaHernandez/EmiliaHernandez.github.io/issues"
   },
-  "homepage": "https://github.com/EmiliaHernandez/EmiliaHernandez.github.io#readme"
+  "homepage": "https://emiliahernandez.github.io/runningExercise"
 }
