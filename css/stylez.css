@@ -379,14 +379,13 @@ color: black;}
     margin-top: 5%;
     padding-top:3%;
     padding-bottom:3% ;
-    font-family: 'Alike Angular', serif;
   }
 
 
   .infoTronSide{
     margin-top: 0px;
     padding-top: 7%;
-    font-family: 'Alike Angular', serif;
+    line-height: 1.5;
   }
 @media (max-width: 1118px){
   .help{
@@ -395,7 +394,6 @@ color: black;}
   .infoTronSide{
     margin-top: 0px;
     padding-top: 3%;
-    font-family: 'Alike Angular', serif;
   }
 }
   .aAngular{
