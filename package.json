@@ -14,7 +14,7 @@
   "dependencies": {
     "bootstrap": "^5.2.3"
   },
-  "description": "This is the repo fo rmy portfolio, where you can find my artwork, developed projects, and samples of some of my work experience.",
+  "description": "This is the repo for my portfolio, where you can find my artwork, developed projects, and samples of some of my work experience.",
   "version": "1.0.0",
   "repository": {
     "type": "git",

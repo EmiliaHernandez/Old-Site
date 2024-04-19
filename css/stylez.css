@@ -142,6 +142,9 @@ animation: updown 2s infinite alternate ease-in-out;
 .starter-small{
   margin-top: 2%;
 }
+.starter-medium{
+  margin-top: 5%;
+}
 
 .td{
   font-size: large;
