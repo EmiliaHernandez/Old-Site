@@ -15,25 +15,17 @@ const utmTerm = urlParams["utm_term"];
 // Define arrays of elephants for different utm_term values
 const elephantsArraysByUtmTerm = {
   // Define arrays for each utm_term value
-  "value1": [
+  "myles": [
     {
       id: 1,
-      name: "Elephant 1",
-      IP: "Category 1",
-      desc: "Description 1",
-      pictureUrl: "URL 1",
-      imdescAlt: "Alt Description 1"
+      pictureUrl: "ucfPics/Myles1.jpg",
     },
     // Add more elephants as needed
   ],
   "value2": [
     {
       id: 1,
-      name: "Elephant 2",
-      IP: "Category 2",
-      desc: "Description 2",
       pictureUrl: "URL 2",
-      imdescAlt: "Alt Description 2"
     },
     // Add more elephants as needed
   ],
@@ -51,12 +43,7 @@ elephantsArray.forEach(function(singleElephantObjects) {
     `
     <article>
       <div>
-      <img src="${singleElephantObjects.pictureUrl}" alt="${singleElephantObjects.imdescAlt}">
-      </div>
-      <div>
-      <h3>${singleElephantObjects.name}</h3>
-      <p>${singleElephantObjects.IP}</p>
-      <p>${singleElephantObjects.desc}</p>
+      <img src="${singleElephantObjects.pictureUrl}">
       </div>
     </article>
   `;

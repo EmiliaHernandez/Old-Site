@@ -8,18 +8,6 @@ body {
   font-family: 'EB Garamond', serif !important;
   color: rgb(255, 255, 255);
 }
-.bottomArrow{
-  text-decoration: none;
-  color: white;
-  font-size: xxx-large;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
 
 .image-card img {
   display: block;
@@ -31,7 +19,6 @@ body {
 .image-card {
   width: 30%;
 }
-
 
 @media (max-width: 415px) {
   .all-elephant-cards article img {
@@ -76,8 +63,8 @@ body {
 
 article{
   background-color: rgb(255, 255, 255);
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: auto;
   margin-bottom: inherit;
 }
@@ -85,14 +72,6 @@ article{
 .intro{
   padding-top:2%;
   padding-bottom:2%;
-}
-
-.introMobile{
-  padding-top:50%;
-  padding-bottom:50%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: 200%;
 }
 
 @media (min-width: 930px) {
