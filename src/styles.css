@@ -23,7 +23,7 @@ body {
 @media (max-width: 415px) {
   .all-elephant-cards article img {
     width: 280px;
-    height: 180px;
+    height: 280px;
     margin-top: 20px;
     background-color: rgb(0, 0, 0);
   }
@@ -36,7 +36,7 @@ body {
 @media (min-width: 415px) {
   .all-elephant-cards article img {
     width: 300px;
-    height: 200px;
+    height: 300px;
     margin-top: 20px;
     background-color: rgb(0, 0, 0);
   }
