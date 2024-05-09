@@ -75,6 +75,10 @@ const elephantsArraysByUtmTerm = {
     {
       id: 15,
       pictureUrl: "./ucfPics/Multi30.jpg",
+    },
+    {
+      id: 16,
+      pictureUrl: "./ucfPics/Myles1.gif",
     }
   ],
   "chris": [
@@ -307,8 +311,8 @@ const elephantsArraysByUtmTerm = {
   id: 22,
   pictureUrl: "./ucfPics/Multi31.jpg",
 },
-],
-"bolivar": [
+  ],
+  "bolivar": [
   {
     id: 1,
     pictureUrl: "./ucfPics/Bolivar.gif",
@@ -402,10 +406,107 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   pictureUrl: "./ucfPics/Multi28.jpg",
   },
   {
-    id: 23,
+    id: 24,
     pictureUrl: "./ucfPics/Multi32.jpg",
     },
-],
+  ],
+  "fridjinah": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/fridjinah1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/fridjinah2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/fridjinah3.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/cristina4.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/cristina7.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/Multi2.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/multi3.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/multi5.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/multi6.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/multi7.jpg",
+    },
+    {
+      id: 8,
+      pictureUrl: "./ucfPics/multi13.jpg",
+    },
+    {
+      id: 9,
+      pictureUrl: "./ucfPics/multi14.jpg",
+    },
+    {
+      id: 10,
+      pictureUrl: "./ucfPics/multi15.jpg",
+    },
+  {
+    id: 11,
+    pictureUrl: "./ucfPics/myles2.jpg",
+  },
+  ],
+  "christian": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Multi2.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/multi3.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Multi4.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/multi5.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/multi6.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/multi7.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/multi8.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/multi9.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/multi10.jpg",
+    },
+  ],
+
   // Define arrays for other utm_term values
 };
 
