@@ -1,21 +1,5 @@
-// Function to parse URL parameters
-function getUrlParams() {
-  const searchParams = new URLSearchParams(window.location.search);
-  const params = {};
-  for (const [key, value] of searchParams.entries()) {
-    params[key] = value;
-  }
-  return params;
-}
 
-// Get URL parameters
-const urlParams = getUrlParams();
-const utmTerm = urlParams["utm_term"];
-
-// Define arrays of elephants for different utm_term values
-const elephantsArraysByUtmTerm = {
-  // Define arrays for each utm_term value
-  "myles": [
+"myles": [
     {
       id: 1,
       pictureUrl: "./ucfPics/myles1.jpg",
@@ -80,34 +64,6 @@ const elephantsArraysByUtmTerm = {
       id: 16,
       pictureUrl: "./ucfPics/Myles1.gif",
     }
-  ],
-  "chris": [
-    {
-      id: 1,
-      pictureUrl: "./ucfPics/Chris1.jpg",
-    },
-    {
-      id: 2,
-      pictureUrl: "./ucfPics/Chris2.jpg",
-    },
-    {
-      id: 3,
-      pictureUrl: "./ucfPics/Chris3.jpg",
-    },
-  ],
-  "nick": [
-    {
-      id: 1,
-      pictureUrl: "./ucfPics/Nick1.jpg",
-    },
-    {
-      id: 2,
-      pictureUrl: "./ucfPics/Nick2.jpg",
-    },
-    {
-      id: 3,
-      pictureUrl: "./ucfPics/Nick3.jpg",
-    },
   ],
   "cristina": [
     {
@@ -506,34 +462,3 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       pictureUrl: "./ucfPics/multi10.jpg",
     },
   ],
-
-  // Define arrays for other utm_term values
-};
-
-function combineElephantArrays(arrays) {
-  const combinedArray = [];
-  Object.values(arrays).forEach(array => {
-    combinedArray.push(...array);
-  });
-  return combinedArray;
-}
-
-// Get all elephants regardless of utm_term
-const allElephantsArray = combineElephantArrays(elephantsArraysByUtmTerm);
-
-let htmlCode = ``;
-
-// Loop through all elephants and generate HTML
-allElephantsArray.forEach(elephant => {
-  htmlCode += `
-    <article>
-      <div>
-        <img src="${elephant.pictureUrl}">
-      </div>
-    </article>
-  `;
-});
-
-// Display the elephants on the page
-const elephantCards = document.querySelector(".all-elephant-cards");
-elephantCards.innerHTML = htmlCode;
