@@ -510,22 +510,25 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   // Define arrays for other utm_term values
 };
 
-// Get all unique picture URLs
-const uniquePictureUrls = new Set();
-Object.values(elephantsArraysByUtmTerm).forEach(array => {
-  array.forEach(elephant => {
-    uniquePictureUrls.add(elephant.pictureUrl);
+function combineElephantArrays(arrays) {
+  const combinedArray = [];
+  Object.values(arrays).forEach(array => {
+    combinedArray.push(...array);
   });
-});
+  return combinedArray;
+}
+
+// Get all elephants regardless of utm_term
+const allElephantsArray = combineElephantArrays(elephantsArraysByUtmTerm);
 
 let htmlCode = ``;
 
-// Loop through unique picture URLs and generate HTML
-uniquePictureUrls.forEach(pictureUrl => {
+// Loop through all elephants and generate HTML
+allElephantsArray.forEach(elephant => {
   htmlCode += `
     <article>
       <div>
-        <img src="${pictureUrl}">
+        <img src="${elephant.pictureUrl}">
       </div>
     </article>
   `;
