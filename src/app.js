@@ -1,4 +1,3 @@
-// Function to parse URL parameters
 function getUrlParams() {
   const searchParams = new URLSearchParams(window.location.search);
   const params = {};
@@ -11,6 +10,52 @@ function getUrlParams() {
 // Get URL parameters
 const urlParams = getUrlParams();
 const utmTerm = urlParams["utm_term"];
+
+// Function to combine all elephant arrays
+function combineElephantArrays(arrays) {
+  const combinedArray = [];
+  Object.values(arrays).forEach(array => {
+    combinedArray.push(...array);
+  });
+  return combinedArray;
+}
+
+// Get all elephants regardless of utm_term
+const allElephantsArray = combineElephantArrays(elephantsArraysByUtmTerm);
+
+let htmlCode = ``;
+
+// Check if a specific utm_term is provided
+if (utmTerm) {
+  // Get the array of elephants based on utm_term
+  const selectedElephantsArray = elephantsArraysByUtmTerm[utmTerm] || [];
+  
+  // Loop through the selected elephants array
+  selectedElephantsArray.forEach(elephant => {
+    htmlCode += `
+      <article>
+        <div>
+          <img src="${elephant.pictureUrl}">
+        </div>
+      </article>
+    `;
+  });
+} else {
+  // Loop through all elephants if no specific utm_term is provided
+  allElephantsArray.forEach(elephant => {
+    htmlCode += `
+      <article>
+        <div>
+          <img src="${elephant.pictureUrl}">
+        </div>
+      </article>
+    `;
+  });
+}
+
+// Display the elephants on the page
+const elephantCards = document.querySelector(".all-elephant-cards");
+elephantCards.innerHTML = htmlCode;
 
 // Define arrays of elephants for different utm_term values
 const elephantsArraysByUtmTerm = {
@@ -509,31 +554,3 @@ pictureUrl: "./ucfPics/Multi31.jpg",
 
   // Define arrays for other utm_term values
 };
-
-function combineElephantArrays(arrays) {
-  const combinedArray = [];
-  Object.values(arrays).forEach(array => {
-    combinedArray.push(...array);
-  });
-  return combinedArray;
-}
-
-// Get all elephants regardless of utm_term
-const allElephantsArray = combineElephantArrays(elephantsArraysByUtmTerm);
-
-let htmlCode = ``;
-
-// Loop through all elephants and generate HTML
-allElephantsArray.forEach(elephant => {
-  htmlCode += `
-    <article>
-      <div>
-        <img src="${elephant.pictureUrl}">
-      </div>
-    </article>
-  `;
-});
-
-// Display the elephants on the page
-const elephantCards = document.querySelector(".all-elephant-cards");
-elephantCards.innerHTML = htmlCode;
