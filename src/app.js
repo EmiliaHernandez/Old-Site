@@ -215,9 +215,197 @@ const elephantsArraysByUtmTerm = {
   },
   {
     id: 12,
-    pictureUrl: "./ucfPics/multi5.jpg",
+    pictureUrl: "./ucfPics/multi5.jpeg",
   },
   ],
+  "areeb": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Areeb1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Areeb2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Areeb3.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/Areeb4.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/Areeb5.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/Areeb6.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/Areeb7.jpg",
+    },
+    {
+      id: 8,
+      pictureUrl: "./ucfPics/Areeb8.jpg",
+    },
+    {
+      id: 9,
+      pictureUrl: "./ucfPics/bolivar1.jpg",
+    },
+    {
+      id: 10,
+      pictureUrl: "./ucfPics/multi5.jpg",
+    },
+    {
+    id: 11,
+    pictureUrl: "./ucfPics/multi16.jpg",
+  },
+  {
+    id: 12,
+    pictureUrl: "./ucfPics/multi7.jpeg",
+  },
+  {
+    id: 13,
+    pictureUrl: "./ucfPics/Mult20.jpg",
+  },
+  {
+  id: 14,
+  pictureUrl: "./ucfPics/Multi21.jpg",
+},
+{
+  id: 15,
+  pictureUrl: "./ucfPics/Multi22.jpeg",
+},
+{
+  id: 16,
+  pictureUrl: "./ucfPics/Multi24.jpg",
+},
+{
+  id: 17,
+  pictureUrl: "./ucfPics/Multi25.jpg",
+},
+{
+  id: 18,
+  pictureUrl: "./ucfPics/Multi26.jpeg",
+},
+{
+  id: 19,
+  pictureUrl: "./ucfPics/multi27.jpg",
+},
+{
+  id: 20,
+  pictureUrl: "./ucfPics/Multi29.jpg",
+},
+{
+  id: 21,
+  pictureUrl: "./ucfPics/Multi30.jpeg",
+},
+{
+  id: 22,
+  pictureUrl: "./ucfPics/Multi31.jpg",
+},
+],
+"bolivar": [
+  {
+    id: 1,
+    pictureUrl: "./ucfPics/Bolivar.gif",
+  },
+  {
+    id: 2,
+    pictureUrl: "./ucfPics/bolivar.jpg",
+  },
+  {
+    id: 3,
+    pictureUrl: "./ucfPics/bolivar1.jpg",
+  },
+  {
+    id: 4,
+    pictureUrl: "./ucfPics/bolivar2.jpg",
+  },
+  {
+    id: 5,
+    pictureUrl: "./ucfPics/bolivar3.jpg",
+  },
+  {
+    id: 6,
+    pictureUrl: "./ucfPics/bolivar4.jpg",
+  },
+  {
+    id: 7,
+    pictureUrl: "./ucfPics/bolivar5.jpg",
+  },
+  {
+    id: 8,
+    pictureUrl: "./ucfPics/bolivar6.jpg",
+  },
+  {
+    id: 9,
+    pictureUrl: "./ucfPics/Multi1.gif",
+  },
+  {
+    id: 10,
+    pictureUrl: "./ucfPics/Multi18.jpg",
+  },
+  {
+  id: 11,
+  pictureUrl: "./ucfPics/Multi19.jpg",
+},
+{
+  id: 12,
+  pictureUrl: "./ucfPics/Multi20.jpeg",
+},
+{
+  id: 13,
+  pictureUrl: "./ucfPics/Multi21.jpg",
+},
+{
+id: 14,
+pictureUrl: "./ucfPics/Multi22.jpg",
+},
+{
+id: 15,
+pictureUrl: "./ucfPics/Multi23.jpeg",
+},
+{
+id: 16,
+pictureUrl: "./ucfPics/Multi24.jpg",
+},
+{
+id: 17,
+pictureUrl: "./ucfPics/Multi25.jpg",
+},
+{
+id: 18,
+pictureUrl: "./ucfPics/Multi26.jpeg",
+},
+{
+id: 19,
+pictureUrl: "./ucfPics/multi27.jpg",
+},
+{
+id: 20,
+pictureUrl: "./ucfPics/Multi29.jpg",
+},
+{
+id: 21,
+pictureUrl: "./ucfPics/Multi30.jpeg",
+},
+{
+id: 22,
+pictureUrl: "./ucfPics/Multi31.jpg",
+},
+{
+  id: 23,
+  pictureUrl: "./ucfPics/Multi28.jpg",
+  },
+  {
+    id: 23,
+    pictureUrl: "./ucfPics/Multi32.jpg",
+    },
+],
   // Define arrays for other utm_term values
 };
 
