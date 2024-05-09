@@ -1,3 +1,16 @@
+function getUrlParams() {
+  const searchParams = new URLSearchParams(window.location.search);
+  const params = {};
+  for (const [key, value] of searchParams.entries()) {
+    params[key] = value;
+  }
+  return params;
+}
+
+// Get URL parameters
+const urlParams = getUrlParams();
+const utmTerm = urlParams["utm_term"];
+
 // Function to parse URL parameters
 function getUrlParams() {
   const searchParams = new URLSearchParams(window.location.search);
@@ -510,25 +523,22 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   // Define arrays for other utm_term values
 };
 
-function combineElephantArrays(arrays) {
-  const combinedArray = [];
-  Object.values(arrays).forEach(array => {
-    combinedArray.push(...array);
+// Get all unique picture URLs
+const uniquePictureUrls = new Set();
+Object.values(elephantsArraysByUtmTerm).forEach(array => {
+  array.forEach(elephant => {
+    uniquePictureUrls.add(elephant.pictureUrl);
   });
-  return combinedArray;
-}
-
-// Get all elephants regardless of utm_term
-const allElephantsArray = combineElephantArrays(elephantsArraysByUtmTerm);
+});
 
 let htmlCode = ``;
 
-// Loop through all elephants and generate HTML
-allElephantsArray.forEach(elephant => {
+// Loop through unique picture URLs and generate HTML
+uniquePictureUrls.forEach(pictureUrl => {
   htmlCode += `
     <article>
       <div>
-        <img src="${elephant.pictureUrl}">
+        <img src="${pictureUrl}">
       </div>
     </article>
   `;
