@@ -18,15 +18,15 @@ const elephantsArraysByUtmTerm = {
   "myles": [
     {
       id: 1,
-      pictureUrl: "./ucfPics/Myles1.jpg",
+      pictureUrl: "./ucfPics/myles1.jpg",
     },
     {
       id: 2,
-      pictureUrl: "./ucfPics/Myles2.jpg",
+      pictureUrl: "./ucfPics/myles2.jpg",
     },
     {
       id: 3,
-      pictureUrl: "./ucfPics/Myles3.jpg",
+      pictureUrl: "./ucfPics/myles3.jpg",
     },
     {
       id: 4,
@@ -50,95 +50,173 @@ const elephantsArraysByUtmTerm = {
     },
     {
       id: 9,
-      pictureUrl: "./ucfPics/multi18.jpg",
+      pictureUrl: "./ucfPics/Multi18.jpg",
     },
     {
       id: 10,
-      pictureUrl: "./ucfPics/multi19.jpg",
+      pictureUrl: "./ucfPics/Multi19.jpg",
     },
     {
       id: 11,
-      pictureUrl: "./ucfPics/multi22.jpg",
+      pictureUrl: "./ucfPics/Multi22.jpg",
     },
     {
       id: 12,
-      pictureUrl: "./ucfPics/multi23.jpg",
+      pictureUrl: "./ucfPics/Multi23.jpg",
     },
     {
       id: 13,
-      pictureUrl: "./ucfPics/multi27.jpg",
+      pictureUrl: "./ucfPics/Multi27.jpg",
     },
     {
       id: 14,
-      pictureUrl: "./ucfPics/multi28.jpg",
+      pictureUrl: "./ucfPics/Multi28.jpg",
     },
     {
       id: 15,
-      pictureUrl: "./ucfPics/multi30.jpg",
+      pictureUrl: "./ucfPics/Multi30.jpg",
     }
+  ],
+  "chris": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Chris1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Chris2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Chris3.jpg",
+    },
+  ],
+  "nick": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Nick1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Nick2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Nick3.jpg",
+    },
   ],
   "cristina": [
     {
       id: 1,
-      pictureUrl: "./ucfPics/Cristina1.jpg",
+      pictureUrl: "./ucfPics/cristina1.jpg",
     },
     {
       id: 2,
-      pictureUrl: "./ucfPics/Cristina2.jpg",
+      pictureUrl: "./ucfPics/cristina2.jpg",
     },
     {
       id: 3,
-      pictureUrl: "./ucfPics/Cristina3.jpg",
+      pictureUrl: "./ucfPics/cristina3.jpg",
     },
     {
       id: 4,
-      pictureUrl: "./ucfPics/Cristina4.jpg",
+      pictureUrl: "./ucfPics/cristina4.jpg",
     },
     {
       id: 5,
-      pictureUrl: "./ucfPics/Cristina5.jpg",
+      pictureUrl: "./ucfPics/cristina5.jpg",
     },
     {
       id: 6,
-      pictureUrl: "./ucfPics/Cristina6.jpg",
+      pictureUrl: "./ucfPics/cristina6.jpg",
     },
     {
       id: 7,
-      pictureUrl: "./ucfPics/Cristina7.jpg",
+      pictureUrl: "./ucfPics/cristina7.jpg",
     },
     {
       id: 8,
-      pictureUrl: "./ucfPics/Cristina8.jpg",
+      pictureUrl: "./ucfPics/cristina8.jpg",
     },
     {
       id: 9,
-      pictureUrl: "./ucfPics/Cristina9.jpg",
+      pictureUrl: "./ucfPics/cristina9.jpg",
     },
     {
       id: 10,
-      pictureUrl: "./ucfPics/Cristina10.jpg",
+      pictureUrl: "./ucfPics/cristina10.jpg",
     },
     {
       id: 11,
-      pictureUrl: "./ucfPics/Cristina11.jpg",
+      pictureUrl: "./ucfPics/cristina11.jpg",
     },
     {
       id: 12,
-      pictureUrl: "./ucfPics/Cristina12.jpg",
+      pictureUrl: "./ucfPics/cristina12.jpg",
     },
     {
       id: 13,
-      pictureUrl: "./ucfPics/Cristina13.jpg",
+      pictureUrl: "./ucfPics/cristina13.jpg",
     },
     {
       id: 14,
-      pictureUrl: "./ucfPics/Cristina14.jpg",
+      pictureUrl: "./ucfPics/cristina14.jpg",
     },
     {
       id: 15,
-      pictureUrl: "./ucfPics/Cristina15.jpg",
+      pictureUrl: "./ucfPics/cristina15.jpg",
     },
     // Add more elephants as needed
+  ],
+  "ross": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/ross1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/ross2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/ross3.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/ross4.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/ross5.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/ross6.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/ross7.jpg",
+    },
+    {
+      id: 8,
+      pictureUrl: "./ucfPics/ross8.jpg",
+    },
+    {
+      id: 9,
+      pictureUrl: "./ucfPics/ross9.jpg",
+    },
+    {
+      id: 10,
+      pictureUrl: "./ucfPics/multi16.jpg",
+    },
+    {
+    id: 11,
+    pictureUrl: "./ucfPics/Multi12.jpg",
+  },
+  {
+    id: 12,
+    pictureUrl: "./ucfPics/multi5.jpg",
+  },
   ],
   // Define arrays for other utm_term values
 };
