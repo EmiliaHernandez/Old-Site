@@ -7,10 +7,10 @@ function getUrlParams() {
   return params;
 }
 
-
 // Get URL parameters
 const urlParams = getUrlParams();
 const utmTerm = urlParams["utm_term"];
+
 
 // Define arrays of elephants for different utm_term values
 const elephantsArraysByUtmTerm = {
@@ -510,27 +510,31 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   // Define arrays for other utm_term values
 };
 
-// Get all unique picture URLs
-const uniquePictureUrls = new Set();
-Object.values(elephantsArraysByUtmTerm).forEach(array => {
-  array.forEach(elephant => {
-    uniquePictureUrls.add(elephant.pictureUrl);
-  });
-});
+// Define the default array (for index.html)
+const defaultElephantsArray = [
+  // Combine all picture arrays
+];
 
+// Function to get the array of elephants based on utm_term
+function getElephantsArray(utmTerm) {
+  return elephantsArraysByUtmTerm[utmTerm] || defaultElephantsArray;
+}
+
+// Get the array of elephants based on utm_term
+const elephantsArray = utmTerm ? getElephantsArray(utmTerm) : defaultElephantsArray;
+
+// Generate HTML code for displaying images
 let htmlCode = ``;
-
-// Loop through unique picture URLs and generate HTML
-uniquePictureUrls.forEach(pictureUrl => {
+elephantsArray.forEach(elephant => {
   htmlCode += `
     <article>
       <div>
-        <img src="${pictureUrl}">
+        <img src="${elephant.pictureUrl}">
       </div>
     </article>
   `;
 });
 
-// Display the elephants on the page
+// Display the images on the page
 const elephantCards = document.querySelector(".all-elephant-cards");
 elephantCards.innerHTML = htmlCode;
