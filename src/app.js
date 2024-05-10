@@ -81,179 +81,179 @@ const elephantsArraysByUtmTerm = {
       pictureUrl: "./ucfPics/Myles1.gif",
     },
     {
-      id: 1,
+      id: 17,
       pictureUrl: "./ucfPics/Chris1.jpg",
     },
     {
-      id: 2,
+      id: 18,
       pictureUrl: "./ucfPics/Chris2.jpg",
     },
     {
-      id: 3,
+      id: 19,
       pictureUrl: "./ucfPics/Chris3.jpg",
     },
     {
-      id: 1,
+      id: 20,
       pictureUrl: "./ucfPics/Nick1.jpg",
     },
     {
-      id: 2,
+      id: 21,
       pictureUrl: "./ucfPics/Nick2.jpg",
     },
     {
-      id: 3,
+      id: 22,
       pictureUrl: "./ucfPics/Nick3.jpg",
     },
     {
-      id: 1,
+      id: 23,
       pictureUrl: "./ucfPics/cristina1.JPG",
     },
     {
-      id: 2,
+      id: 24,
       pictureUrl: "./ucfPics/cristina2.jpg",
     },
     {
-      id: 3,
+      id: 25,
       pictureUrl: "./ucfPics/cristina3.webp",
     },
     {
-      id: 4,
+      id: 26,
       pictureUrl: "./ucfPics/cristina4.jpg",
     },
     {
-      id: 5,
+      id: 27,
       pictureUrl: "./ucfPics/cristina5.jpg",
     },
     {
-      id: 6,
+      id: 28,
       pictureUrl: "./ucfPics/cristina6.jpg",
     },
     {
-      id: 7,
+      id: 29,
       pictureUrl: "./ucfPics/cristina7.jpg",
     },
     {
-      id: 8,
+      id: 30,
       pictureUrl: "./ucfPics/cristina8.jpg",
     },
     {
-      id: 9,
+      id: 31,
       pictureUrl: "./ucfPics/cristina9.jpg",
     },
     {
-      id: 10,
+      id: 32,
       pictureUrl: "./ucfPics/cristina10.jpeg",
     },
     {
-      id: 11,
+      id: 33,
       pictureUrl: "./ucfPics/cristina11.jpg",
     },
     {
-      id: 12,
+      id: 34,
       pictureUrl: "./ucfPics/cristina12.jpg",
     },
     {
-      id: 13,
+      id: 35,
       pictureUrl: "./ucfPics/cristina13.jpg",
     },
     {
-      id: 14,
+      id: 36,
       pictureUrl: "./ucfPics/cristina014.jpg",
     },
     {
-      id: 15,
+      id: 37,
       pictureUrl: "./ucfPics/Multi33.gif",
     },
     {
-      id: 1,
+      id: 38,
       pictureUrl: "./ucfPics/ross1.jpg",
     },
     {
-      id: 2,
+      id: 39,
       pictureUrl: "./ucfPics/ross2.jpg",
     },
     {
-      id: 3,
+      id: 40,
       pictureUrl: "./ucfPics/ross3.jpg",
     },
     {
-      id: 4,
+      id: 41,
       pictureUrl: "./ucfPics/ross4.jpg",
     },
     {
-      id: 5,
+      id: 42,
       pictureUrl: "./ucfPics/ross5.jpg",
     },
     {
-      id: 6,
+      id: 43,
       pictureUrl: "./ucfPics/ross6.jpg",
     },
     {
-      id: 7,
+      id: 44,
       pictureUrl: "./ucfPics/ross7.jpg",
     },
     {
-      id: 8,
+      id: 45,
       pictureUrl: "./ucfPics/ross8.jpg",
     },
     {
-      id: 9,
+      id: 46,
       pictureUrl: "./ucfPics/ross9.jpg",
     },
     {
-      id: 10,
+      id: 47,
       pictureUrl: "./ucfPics/multi16.jpg",
     },
     {
-    id: 11,
+    id: 48,
     pictureUrl: "./ucfPics/Multi12.jpg",
   },
   {
-    id: 12,
+    id: 49,
     pictureUrl: "./ucfPics/multi5.jpeg",
   },
   {
-    id: 1,
+    id: 50,
     pictureUrl: "./ucfPics/Areeb01.jpg",
   },
   {
-    id: 2,
+    id: 51,
     pictureUrl: "./ucfPics/Areeb02.jpg",
   },
   {
-    id: 3,
+    id: 52,
     pictureUrl: "./ucfPics/Areeb03.jpg",
   },
   {
-    id: 4,
+    id: 53,
     pictureUrl: "./ucfPics/Areeb04.jpg",
   },
   {
-    id: 5,
+    id: 54,
     pictureUrl: "./ucfPics/Areeb5.jpg",
   },
   {
-    id: 6,
+    id: 55,
     pictureUrl: "./ucfPics/Areeb6.jpg",
   },
   {
-    id: 7,
+    id: 56,
     pictureUrl: "./ucfPics/Areeb7.jpg",
   },
   {
-    id: 8,
+    id: 57,
     pictureUrl: "./ucfPics/Areeb8.jpg",
   },
   {
-    id: 9,
+    id: 58,
     pictureUrl: "./ucfPics/bolivar1.jpg",
   },
   {
-    id: 10,
+    id: 59,
     pictureUrl: "./ucfPics/multi5.jpeg",
   },
   {
-  id: 11,
+  id: 60,
   pictureUrl: "./ucfPics/multi16.jpg",
 },
 {
@@ -263,10 +263,6 @@ const elephantsArraysByUtmTerm = {
 {
 id: 14,
 pictureUrl: "./ucfPics/Multi21.jpg",
-},
-{
-id: 15,
-pictureUrl: "./ucfPics/Multi22.jpg",
 },
 {
 id: 16,
@@ -347,10 +343,6 @@ pictureUrl: "./ucfPics/Multi20.jpg",
 {
 id: 13,
 pictureUrl: "./ucfPics/Multi21.jpg",
-},
-{
-id: 14,
-pictureUrl: "./ucfPics/Multi22.jpg",
 },
 {
 id: 16,
