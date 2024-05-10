@@ -942,7 +942,17 @@ const defaultElephantsArray = {
 function getElephantsArray(utmTerm) {
   return elephantsArraysByUtmTerm[utmTerm] || defaultElephantsArray;
 }
+// Function to shuffle an array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
+// Shuffle the elephantsArray
+shuffleArray(elephantsArray);
 // Get the array of elephants based on utm_term
 const elephantsArray = utmTerm ? getElephantsArray(utmTerm) : defaultElephantsArray;
 

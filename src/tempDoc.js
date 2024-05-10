@@ -946,17 +946,7 @@ function getUrlParams() {
   // Get the array of elephants based on utm_term
   const elephantsArray = utmTerm ? getElephantsArray(utmTerm) : defaultElephantsArray;
   
-  // Function to shuffle an array
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
   
-  // Shuffle the elephantsArray
-  shuffleArray(elephantsArray);
   // Generate HTML code for displaying images
   let htmlCode = ``;
   elephantsArray.forEach(elephant => {
