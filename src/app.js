@@ -951,10 +951,10 @@ function shuffleArray(array) {
 }
 
 // Shuffle the elephantsArray
-shuffleArray(elephantsArray);
+
 // Get the array of elephants based on utm_term
 const elephantsArray = utmTerm ? getElephantsArray(utmTerm) : defaultElephantsArray;
-
+shuffleArray(elephantsArray);
 // Generate HTML code for displaying images
 let htmlCode = ``;
 elephantsArray.forEach(elephant => {
