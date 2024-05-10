@@ -164,7 +164,11 @@ const elephantsArraysByUtmTerm = {
     },
     {
       id: 14,
-      pictureUrl: "./ucfPics/cristina14.jpg",
+      pictureUrl: "./ucfPics/cristina014.jpg",
+    },
+    {
+      id: 15,
+      pictureUrl: "./ucfPics/Multi33.gif",
     },
     // Add more elephants as needed
   ],
@@ -366,10 +370,6 @@ id: 14,
 pictureUrl: "./ucfPics/Multi22.jpg",
 },
 {
-id: 15,
-pictureUrl: "./ucfPics/Multi23.jpg",
-},
-{
 id: 16,
 pictureUrl: "./ucfPics/Multi24.jpg",
 },
@@ -501,6 +501,14 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       id: 9,
       pictureUrl: "./ucfPics/multi10.mp4",
     },
+    {
+      id: 10,
+      pictureUrl: "./ucfPics/Multi33.gif",
+    },
+    {
+      id: 11,
+      pictureUrl: "./ucfPics/Jorge7.gif",
+    },
   ],
   "jorge": [
     {
@@ -526,6 +534,14 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     {
       id: 6,
       pictureUrl: "./ucfPics/Jorge6.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/multi5.jpeg",
+    },
+    {
+      id: 8,
+      pictureUrl: "./ucfPics/Jorge7.gif",
     },
   ],
 
