@@ -511,9 +511,22 @@ pictureUrl: "./ucfPics/Multi31.jpg",
 };
 
 // Define the default array (for index.html)
-const defaultElephantsArray = [
-  // Combine all picture arrays
-];
+const defaultElephantsArray = {
+  "all": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Multi23.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Multi24.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Multi25.jpg",
+    },
+  ]
+};
 
 // Function to get the array of elephants based on utm_term
 function getElephantsArray(utmTerm) {
