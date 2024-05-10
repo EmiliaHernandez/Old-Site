@@ -12,8 +12,8 @@ const urlParams = getUrlParams();
 const utmTerm = urlParams["utm_term"];
 
 
-// Define arrays of elephants for different utm_term values
-const elephantsArraysByUtmTerm = {
+// Define arrays of friends for different utm_term values
+const friendsArraysByUtmTerm = {
   // Define arrays for each utm_term value
   "all": [
     {
@@ -459,10 +459,6 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       pictureUrl: "./ucfPics/Multi28.jpg",
     },
     {
-      id: 15,
-      pictureUrl: "./ucfPics/Multi30.jpg",
-    },
-    {
       id: 16,
       pictureUrl: "./ucfPics/Myles1.gif",
     }
@@ -556,7 +552,7 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       id: 15,
       pictureUrl: "./ucfPics/Multi33.gif",
     },
-    // Add more elephants as needed
+    // Add more friends as needed
   ],
   "ross": [
     {
@@ -920,7 +916,7 @@ pictureUrl: "./ucfPics/Multi31.jpg",
 
 
 // Define the default array (for index.html)
-const defaultElephantsArray = {
+const defaultfriendsArray = {
   "all": [
     {
       id: 1,
@@ -937,9 +933,9 @@ const defaultElephantsArray = {
   ]
 };
 
-// Function to get the array of elephants based on utm_term
-function getElephantsArray(utmTerm) {
-  return elephantsArraysByUtmTerm[utmTerm] || defaultElephantsArray;
+// Function to get the array of friends based on utm_term
+function getfriendsArray(utmTerm) {
+  return friendsArraysByUtmTerm[utmTerm] || defaultfriendsArray;
 }
 // Function to shuffle an array
 function shuffleArray(array) {
@@ -950,23 +946,23 @@ function shuffleArray(array) {
   return array;
 }
 
-// Shuffle the elephantsArray
+// Shuffle the friendsArray
 
-// Get the array of elephants based on utm_term
-const elephantsArray = utmTerm ? getElephantsArray(utmTerm) : defaultElephantsArray;
-shuffleArray(elephantsArray);
+// Get the array of friends based on utm_term
+const friendsArray = utmTerm ? getfriendsArray(utmTerm) : defaultfriendsArray;
+shuffleArray(friendsArray);
 // Generate HTML code for displaying images
 let htmlCode = ``;
-elephantsArray.forEach(elephant => {
+friendsArray.forEach(friend => {
   htmlCode += `
     <article>
       <div>
-        <img src="${elephant.pictureUrl}">
+        <img src="${friend.pictureUrl}">
       </div>
     </article>
   `;
 });
 
 // Display the images on the page
-const elephantCards = document.querySelector(".all-elephant-cards");
-elephantCards.innerHTML = htmlCode;
+const friendCards = document.querySelector(".all-friend-cards");
+friendCards.innerHTML = htmlCode;
