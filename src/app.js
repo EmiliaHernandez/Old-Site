@@ -400,6 +400,14 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   id: 120,
   pictureUrl: "./ucfPics/Jorge6.jpg",
 },
+{
+  id: 121,
+  pictureUrl: "./ucfPics/Steve.jpg",
+},
+{
+  id: 122,
+  pictureUrl: "./ucfPics/Steve1.gif",
+},
   ],
   "myles": [
     {
@@ -470,11 +478,23 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     },
     {
       id: 2,
-      pictureUrl: "./ucfPics/Chris2.jpg",
+      pictureUrl: "./ucfPics/Multi20.jpg",
     },
     {
       id: 3,
-      pictureUrl: "./ucfPics/Chris3.jpg",
+      pictureUrl: "./ucfPics/Chris2.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/Chris2.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/Multi32.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/Multi26.jpg",
     },
   ],
   "nick": [
@@ -908,6 +928,44 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     {
       id: 8,
       pictureUrl: "./ucfPics/Jorge7.gif",
+    },
+  ],
+  "steve": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/bolivar1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Steve.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Steve1.gif",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/Multi20.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/Multi26.jpg",
+    },
+    {
+      id: 6,
+      pictureUrl: "./ucfPics/Multi30.jpg",
+    },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/Multi29.jpg",
+    },
+    {
+      id: 8,
+      pictureUrl: "./ucfPics/Multi32.jpg",
+    },
+    {
+      id: 9,
+      pictureUrl: "./ucfPics/myles3.jpg",
     },
   ],
 
