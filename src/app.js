@@ -248,260 +248,160 @@ const elephantsArraysByUtmTerm = {
     id: 58,
     pictureUrl: "./ucfPics/bolivar1.jpg",
   },
-  {
-    id: 59,
-    pictureUrl: "./ucfPics/multi5.jpeg",
-  },
-  {
-  id: 60,
-  pictureUrl: "./ucfPics/multi16.jpg",
-},
 {
-  id: 13,
+  id: 61,
   pictureUrl: "./ucfPics/Multi20.jpg",
 },
 {
-id: 14,
+id: 62,
 pictureUrl: "./ucfPics/Multi21.jpg",
 },
 {
-id: 16,
+id: 63,
 pictureUrl: "./ucfPics/Multi24.jpg",
 },
 {
-id: 17,
+id: 64,
 pictureUrl: "./ucfPics/Multi25.jpg",
 },
 {
-id: 18,
+id: 65,
 pictureUrl: "./ucfPics/Multi26.jpg",
 },
 {
-id: 19,
-pictureUrl: "./ucfPics/multi27.jpg",
-},
-{
-id: 20,
+id: 67,
 pictureUrl: "./ucfPics/Multi29.jpg",
 },
 {
-id: 21,
-pictureUrl: "./ucfPics/Multi30.jpg",
-},
-{
-id: 22,
+id: 69,
 pictureUrl: "./ucfPics/Multi31.jpg",
 },
 {
-  id: 1,
+  id: 70,
   pictureUrl: "./ucfPics/Bolivar1.gif",
 },
 {
-  id: 2,
+  id: 71,
   pictureUrl: "./ucfPics/bolivar.jpg",
 },
 {
-  id: 3,
-  pictureUrl: "./ucfPics/bolivar1.jpg",
-},
-{
-  id: 4,
+  id: 73,
   pictureUrl: "./ucfPics/bolivar2.jpg",
 },
 {
-  id: 5,
+  id: 74,
   pictureUrl: "./ucfPics/bolivar3.jpg",
 },
 {
-  id: 6,
+  id: 75,
   pictureUrl: "./ucfPics/Bolivar4.jpg",
 },
 {
-  id: 7,
+  id: 76,
   pictureUrl: "./ucfPics/Bolivar5.jpg",
 },
 {
-  id: 8,
+  id: 77,
   pictureUrl: "./ucfPics/Bolivar6.jpg",
 },
 {
-  id: 9,
+  id: 78,
   pictureUrl: "./ucfPics/Multi1.gif",
 },
 {
-  id: 10,
-  pictureUrl: "./ucfPics/Multi18.jpg",
-},
-{
-id: 11,
-pictureUrl: "./ucfPics/Multi19.jpg",
-},
-{
-id: 12,
-pictureUrl: "./ucfPics/Multi20.jpg",
-},
-{
-id: 13,
-pictureUrl: "./ucfPics/Multi21.jpg",
-},
-{
-id: 16,
-pictureUrl: "./ucfPics/Multi24.jpg",
-},
-{
-id: 17,
-pictureUrl: "./ucfPics/Multi25.jpg",
-},
-{
-id: 18,
-pictureUrl: "./ucfPics/Multi26.jpg",
-},
-{
-id: 19,
-pictureUrl: "./ucfPics/multi27.jpg",
-},
-{
-id: 20,
-pictureUrl: "./ucfPics/Multi29.jpg",
-},
-{
-id: 21,
-pictureUrl: "./ucfPics/Multi30.jpg",
-},
-{
-id: 22,
-pictureUrl: "./ucfPics/Multi31.jpg",
-},
-{
-id: 23,
-pictureUrl: "./ucfPics/Multi28.jpg",
-},
-{
-  id: 24,
+  id: 91,
   pictureUrl: "./ucfPics/Multi32.jpg",
   },
   {
-    id: 1,
+    id: 92,
     pictureUrl: "./ucfPics/fridjinah1.jpg",
   },
   {
-    id: 2,
+    id: 93,
     pictureUrl: "./ucfPics/fridjinah2.jpg",
   },
   {
-    id: 3,
+    id: 94,
     pictureUrl: "./ucfPics/fridjinah3.jpg",
   },
   {
-    id: 4,
+    id: 95,
     pictureUrl: "./ucfPics/cristina4.jpg",
   },
   {
-    id: 5,
+    id: 96,
     pictureUrl: "./ucfPics/cristina7.jpg",
   },
   {
-    id: 6,
+    id: 97,
     pictureUrl: "./ucfPics/Multi2.jpg",
   },
   {
-    id: 7,
+    id: 98,
     pictureUrl: "./ucfPics/multi3.jpg",
   },
   {
-    id: 5,
-    pictureUrl: "./ucfPics/multi5.jpg",
-  },
-  {
-    id: 6,
+    id: 100,
     pictureUrl: "./ucfPics/multi6.jpg",
   },
   {
-    id: 7,
+    id: 101,
     pictureUrl: "./ucfPics/multi7.jpg",
   },
   {
-    id: 8,
+    id: 102,
     pictureUrl: "./ucfPics/multi013.jpg",
   },
   {
-    id: 9,
+    id: 103,
     pictureUrl: "./ucfPics/multi14.jpg",
   },
   {
-    id: 10,
+    id: 104,
     pictureUrl: "./ucfPics/multi15.webp",
   },
 {
-  id: 11,
+  id: 105,
   pictureUrl: "./ucfPics/myles2.jpg",
 },
 {
-  id: 1,
-  pictureUrl: "./ucfPics/Multi2.jpg",
-},
-{
-  id: 2,
-  pictureUrl: "./ucfPics/multi3.jpg",
-},
-{
-  id: 4,
-  pictureUrl: "./ucfPics/multi5.jpeg",
-},
-{
-  id: 5,
-  pictureUrl: "./ucfPics/multi6.jpg",
-},
-{
-  id: 6,
-  pictureUrl: "./ucfPics/multi7.jpg",
-},
-{
-  id: 7,
+  id: 111,
   pictureUrl: "./ucfPics/multi8.jpg",
 },
 {
-  id: 8,
+  id: 112,
   pictureUrl: "./ucfPics/multi9.jpg",
 },
 {
-  id: 10,
-  pictureUrl: "./ucfPics/Multi33.gif",
-},
-{
-  id: 11,
+  id: 114,
   pictureUrl: "./ucfPics/Jorge7.gif",
 },
 {
-  id: 1,
+  id: 115,
   pictureUrl: "./ucfPics/Jorge1.jpg",
 },
 {
-  id: 2,
+  id: 116,
   pictureUrl: "./ucfPics/Jorge2.jpg",
 },
 {
-  id: 3,
+  id: 117,
   pictureUrl: "./ucfPics/Jorge3.jpg",
 },
 {
-  id: 4,
+  id: 118,
   pictureUrl: "./ucfPics/Jorge4.jpg",
 },
 {
-  id: 5,
+  id: 119,
   pictureUrl: "./ucfPics/Jorge5.jpg",
 },
 {
-  id: 6,
+  id: 120,
   pictureUrl: "./ucfPics/Jorge6.jpg",
 },
 {
-  id: 7,
-  pictureUrl: "./ucfPics/multi5.jpeg",
-},
-{
-  id: 8,
+  id: 122,
   pictureUrl: "./ucfPics/Jorge7.gif",
 },
 
@@ -707,10 +607,6 @@ pictureUrl: "./ucfPics/Multi28.jpg",
     {
     id: 11,
     pictureUrl: "./ucfPics/Multi12.jpg",
-  },
-  {
-    id: 12,
-    pictureUrl: "./ucfPics/multi5.jpeg",
   },
   ],
   "areeb": [
