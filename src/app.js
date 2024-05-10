@@ -1035,25 +1035,6 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   // Define arrays for other utm_term values
 };
 
-function removeDuplicatePictureUrls(elephantsArray) {
-  const uniquePictureUrls = new Set();
-  return elephantsArray.filter(elephant => {
-    if (uniquePictureUrls.has(elephant.pictureUrl)) {
-      return false;
-    } else {
-      uniquePictureUrls.add(elephant.pictureUrl);
-      return true;
-    }
-  });
-}
-
-// Remove duplicates from the array
-const uniqueElephants = removeDuplicatePictureUrls(allElephants);
-
-// Assign unique IDs to the elephants
-uniqueElephants.forEach((elephant, index) => {
-  elephant.id = index + 1;
-});
 
 // Define the default array (for index.html)
 const defaultElephantsArray = {
