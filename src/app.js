@@ -406,7 +406,7 @@ pictureUrl: "./ucfPics/Multi31.jpg",
 },
 {
   id: 122,
-  pictureUrl: "./ucfPics/Steve1.gif",
+  pictureUrl: "./ucfPics/steve1.gif",
 },
 {
   id: 124,
@@ -495,10 +495,6 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       pictureUrl: "./ucfPics/myles1.jpg",
     },
     {
-      id: 2,
-      pictureUrl: "./ucfPics/myles2.jpg",
-    },
-    {
       id: 3,
       pictureUrl: "./ucfPics/myles3.jpg",
     },
@@ -517,10 +513,6 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     {
       id: 7,
       pictureUrl: "./ucfPics/bolivar.jpg",
-    },
-    {
-      id: 8,
-      pictureUrl: "./ucfPics/bolivar3.jpg",
     },
     {
       id: 9,
@@ -1131,14 +1123,6 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       id: 3,
       pictureUrl: "./ucfPics/Nate3.jpg",
     },
-    {
-      id: 4,
-      pictureUrl: "./ucfPics/Dante4.jpg",
-    },
-    {
-      id: 5,
-      pictureUrl: "./ucfPics/Dante5.jpg",
-    },
   ],
   "cami": [
     {
@@ -1151,7 +1135,25 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     },
     {
       id: 3,
-      pictureUrl: "./ucfPics/Cami3.jpg",
+      pictureUrl: "./ucfPics/Multi35.jpg",
+    },
+  ],
+  "camila": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Camila01.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/CamilaFridjinah.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/cristina1.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/fridjinah2.jpg",
     },
   ],
 
