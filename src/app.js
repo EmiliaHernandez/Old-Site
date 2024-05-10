@@ -225,7 +225,7 @@ const elephantsArraysByUtmTerm = {
   "areeb": [
     {
       id: 1,
-      pictureUrl: "./ucfPics/Areeb1.jpg",
+      pictureUrl: "./ucfPics/Areeb01.jpg",
     },
     {
       id: 2,
