@@ -408,6 +408,86 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   id: 122,
   pictureUrl: "./ucfPics/Steve1.gif",
 },
+{
+  id: 124,
+  pictureUrl: "./ucfPics/Myles8.gif",
+},
+{
+  id: 125,
+  pictureUrl: "./ucfPics/Chris4.gif",
+},
+{
+  id: 127,
+  pictureUrl: "./ucfPics/Multi34.jpg",
+  },
+  {
+    id: 128,
+    pictureUrl: "./ucfPics/CamilaFridjinah.gif",
+  },
+  {
+    id: 129,
+    pictureUrl: "./ucfPics/Jorge8.jpeg",
+  },
+  {
+    id: 130,
+    pictureUrl: "./ucfPics/Jorge8.gif",
+  },
+  {
+    id: 131,
+    pictureUrl: "./ucfPics/Jorge9.jpg",
+  },
+  {
+    id: 132,
+    pictureUrl: "./ucfPics/Camila1.jpg",
+  },
+  {
+    id: 133,
+    pictureUrl: "./ucfPics/Cami2.jpg",
+  },
+  {
+    id: 134,
+    pictureUrl: "./ucfPics/Cami3.jpg",
+  },
+  {
+    id: 135,
+    pictureUrl: "./ucfPics/Nate1.jpg",
+  },
+  {
+    id: 136,
+    pictureUrl: "./ucfPics/Nate2.jpg",
+  },
+  {
+    id: 137,
+    pictureUrl: "./ucfPics/Nate3.jpg",
+  },
+  {
+    id: 138,
+    pictureUrl: "./ucfPics/Dante4.jpg",
+  },
+  {
+    id: 139,
+    pictureUrl: "./ucfPics/Dante5.jpg",
+  },
+  {
+    id: 140,
+    pictureUrl: "./ucfPics/Dante1.jpg",
+  },
+  {
+    id: 141,
+    pictureUrl: "./ucfPics/Dante2.jpg",
+  },
+  {
+    id: 142,
+    pictureUrl: "./ucfPics/Dante3.jpg",
+  },
+  {
+    id: 143,
+    pictureUrl: "./ucfPics/multi017.jpg",
+  },
+  {
+    id: 144,
+    pictureUrl: "./ucfPics/Steve2.gif",
+  },
   ],
   "myles": [
     {
@@ -469,6 +549,14 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     {
       id: 16,
       pictureUrl: "./ucfPics/Myles1.gif",
+    },
+    {
+      id: 17,
+      pictureUrl: "./ucfPics/Dante4.jpg",
+    },
+    {
+      id: 18,
+      pictureUrl: "./ucfPics/Myles8.gif",
     }
   ],
   "chris": [
@@ -496,6 +584,10 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       id: 6,
       pictureUrl: "./ucfPics/Multi26.jpg",
     },
+    {
+      id: 7,
+      pictureUrl: "./ucfPics/Chris4.gif",
+    },
   ],
   "nick": [
     {
@@ -509,6 +601,10 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     {
       id: 3,
       pictureUrl: "./ucfPics/Nick3.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/Dante3.jpg",
     },
   ],
   "cristina": [
@@ -705,6 +801,10 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   id: 22,
   pictureUrl: "./ucfPics/Multi31.jpg",
 },
+{
+  id: 23,
+  pictureUrl: "./ucfPics/Multi34.jpg",
+  },
   ],
   "bolivar": [
   {
@@ -799,6 +899,10 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     id: 24,
     pictureUrl: "./ucfPics/Multi32.jpg",
     },
+    {
+      id: 25,
+      pictureUrl: "./ucfPics/Multi34.jpg",
+      },
   ],
   "fridjinah": [
     {
@@ -856,6 +960,10 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   {
     id: 11,
     pictureUrl: "./ucfPics/myles2.jpg",
+  },
+  {
+    id: 12,
+    pictureUrl: "./ucfPics/CamilaFridjinah.gif",
   },
   ],
   "christian": [
@@ -929,6 +1037,18 @@ pictureUrl: "./ucfPics/Multi31.jpg",
       id: 8,
       pictureUrl: "./ucfPics/Jorge7.gif",
     },
+    {
+      id: 9,
+      pictureUrl: "./ucfPics/Jorge8.jpeg",
+    },
+    {
+      id: 10,
+      pictureUrl: "./ucfPics/Jorge8.gif",
+    },
+    {
+      id: 11,
+      pictureUrl: "./ucfPics/Jorge9.jpg",
+    },
   ],
   "steve": [
     {
@@ -966,6 +1086,72 @@ pictureUrl: "./ucfPics/Multi31.jpg",
     {
       id: 9,
       pictureUrl: "./ucfPics/myles3.jpg",
+    },
+    {
+    id: 10,
+    pictureUrl: "./ucfPics/multi017.jpg",
+  },
+  {
+    id: 11,
+    pictureUrl: "./ucfPics/Steve2.gif",
+  },
+  ],
+  "dante": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Dante1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Dante2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Dante3.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/Dante4.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/Dante5.jpg",
+    },
+  ],
+  "nate": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Nate1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Nate2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Nate3.jpg",
+    },
+    {
+      id: 4,
+      pictureUrl: "./ucfPics/Dante4.jpg",
+    },
+    {
+      id: 5,
+      pictureUrl: "./ucfPics/Dante5.jpg",
+    },
+  ],
+  "cami": [
+    {
+      id: 1,
+      pictureUrl: "./ucfPics/Camila1.jpg",
+    },
+    {
+      id: 2,
+      pictureUrl: "./ucfPics/Cami2.jpg",
+    },
+    {
+      id: 3,
+      pictureUrl: "./ucfPics/Cami3.jpg",
     },
   ],
 
