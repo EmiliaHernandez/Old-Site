@@ -400,10 +400,6 @@ pictureUrl: "./ucfPics/Multi31.jpg",
   id: 120,
   pictureUrl: "./ucfPics/Jorge6.jpg",
 },
-{
-  id: 122,
-  pictureUrl: "./ucfPics/Jorge7.gif",
-},
 
   ],
   "myles": [
