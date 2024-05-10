@@ -229,7 +229,7 @@ const elephantsArraysByUtmTerm = {
     },
     {
       id: 2,
-      pictureUrl: "./ucfPics/Areeb2.jpg",
+      pictureUrl: "./ucfPics/Areeb02.jpg",
     },
     {
       id: 3,
@@ -237,7 +237,7 @@ const elephantsArraysByUtmTerm = {
     },
     {
       id: 4,
-      pictureUrl: "./ucfPics/Areeb4.jpg",
+      pictureUrl: "./ucfPics/Areeb04.jpg",
     },
     {
       id: 5,
@@ -261,7 +261,7 @@ const elephantsArraysByUtmTerm = {
     },
     {
       id: 10,
-      pictureUrl: "./ucfPics/multi5.jpg",
+      pictureUrl: "./ucfPics/multi5.jpeg",
     },
     {
     id: 11,
@@ -269,11 +269,11 @@ const elephantsArraysByUtmTerm = {
   },
   {
     id: 12,
-    pictureUrl: "./ucfPics/multi7.jpeg",
+    pictureUrl: "./ucfPics/multi7.jpg",
   },
   {
     id: 13,
-    pictureUrl: "./ucfPics/Mult20.jpg",
+    pictureUrl: "./ucfPics/Multi20.jpg",
   },
   {
   id: 14,
@@ -281,7 +281,7 @@ const elephantsArraysByUtmTerm = {
 },
 {
   id: 15,
-  pictureUrl: "./ucfPics/Multi22.jpeg",
+  pictureUrl: "./ucfPics/Multi22.jpg",
 },
 {
   id: 16,
@@ -293,7 +293,7 @@ const elephantsArraysByUtmTerm = {
 },
 {
   id: 18,
-  pictureUrl: "./ucfPics/Multi26.jpeg",
+  pictureUrl: "./ucfPics/Multi26.jpg",
 },
 {
   id: 19,
@@ -305,7 +305,7 @@ const elephantsArraysByUtmTerm = {
 },
 {
   id: 21,
-  pictureUrl: "./ucfPics/Multi30.jpeg",
+  pictureUrl: "./ucfPics/Multi30.jpg",
 },
 {
   id: 22,
